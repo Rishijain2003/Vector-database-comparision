@@ -1,0 +1,26 @@
+{
+  "endee_native": {
+    "backend": "endee_native",
+    "ingest": "native_endee_sdk",
+    "indexing_seconds": 38.5204,
+    "num_rows": 10000,
+    "index_name": "dbpedia_10k_benchmark",
+    "endee_api_base": "http://192.168.108.123:18080/api/v1",
+    "endee_auth_mode": "local_no_auth",
+    "batch_size": 1000,
+    "vector_dimension": 1536,
+    "completed_at": "2026-04-14T15:44:47.662128+00:00"
+  },
+  "qdrant_native": {
+    "backend": "qdrant_native",
+    "ingest": "native_qdrant_client",
+    "indexing_seconds": 18.0159,
+    "num_rows": 10000,
+    "collection_name": "dbpedia_10k_benchmark_native",
+    "qdrant_url": "http://192.168.108.123:6333",
+    "batch_size": 1000,
+    "vector_dimension": 1536,
+    "title_payload_index": true,
+    "completed_at": "2026-04-14T15:53:42.805086+00:00"
+  }
+}

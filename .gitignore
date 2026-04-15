@@ -1,0 +1,48 @@
+# Local / secrets
+.env
+.env.*
+!.env.example
+
+# Your paths
+.hf-cache/
+.venv-ds/
+data/
+endee-data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.hypothesis/
+
+# Virtual environments (common names)
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+
+# Optional: local Qdrant / vector DB dumps (uncomment if you store them here)
+# qdrant_storage/

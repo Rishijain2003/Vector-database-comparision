@@ -1,0 +1,8 @@
+datasets>=2.16.0
+pyarrow>=14.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 2.x: QdrantClient.search removed; use query_points (see scripts/run_ann_similarity.py)
+qdrant-client>=2.0.0
+endee>=0.1.22

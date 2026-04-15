@@ -1,0 +1,6716 @@
+{
+  "version": 1,
+  "backend": "qdrant",
+  "summary": {
+    "k": 10,
+    "num_queries": 100,
+    "warmup_queries": 20,
+    "hnsw_ef": 128,
+    "collection": "dbpedia_10k_benchmark_native",
+    "qdrant_url": "http://192.168.108.123:6333",
+    "query_vectors_npz": "benchmarks/query_slice.npz",
+    "completed_at": "2026-04-15T05:17:34.755632+00:00"
+  },
+  "results": [
+    {
+      "query_i": 0,
+      "query_id": "<dbpedia:40th_Flight_Test_Squadron>",
+      "latency_ms": 4.4952,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:No._40_Squadron_RAAF>",
+          "score": 0.5617231,
+          "title": "No. 40 Squadron RAAF"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:453d_Electronic_Warfare_Squadron>",
+          "score": 0.49584472,
+          "title": "453d Electronic Warfare Squadron"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:380th_Air_Expeditionary_Wing>",
+          "score": 0.47788894,
+          "title": "380th Air Expeditionary Wing"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:No._46_Squadron_RAF>",
+          "score": 0.46765536,
+          "title": "No. 46 Squadron RAF"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:No._30_Squadron_RAAF>",
+          "score": 0.4330396,
+          "title": "No. 30 Squadron RAAF"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:VFA-154>",
+          "score": 0.42455637,
+          "title": "VFA-154"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:14th_Cavalry_Regiment>",
+          "score": 0.41647795,
+          "title": "14th Cavalry Regiment"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Southeast_Air_Defense_Sector>",
+          "score": 0.39523587,
+          "title": "Southeast Air Defense Sector"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:List_of_component_units_of_Fighter_Command>",
+          "score": 0.39252013,
+          "title": "List of component units of Fighter Command"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:730th_Air_Mobility_Squadron>",
+          "score": 0.3793677,
+          "title": "730th Air Mobility Squadron"
+        }
+      ]
+    },
+    {
+      "query_i": 1,
+      "query_id": "<dbpedia:AllianceBernstein>",
+      "latency_ms": 4.569,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Acadian_Asset_Management>",
+          "score": 0.45446983,
+          "title": "Acadian Asset Management"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:MBIA>",
+          "score": 0.42939666,
+          "title": "MBIA"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:A._M._Best>",
+          "score": 0.42855504,
+          "title": "A. M. Best"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Morgan_Stanley>",
+          "score": 0.39658898,
+          "title": "Morgan Stanley"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:BAE_Systems_AB>",
+          "score": 0.39475727,
+          "title": "BAE Systems AB"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Alliance_for_Justice>",
+          "score": 0.3845461,
+          "title": "Alliance for Justice"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:A&B_Sound>",
+          "score": 0.37029123,
+          "title": "A&B Sound"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Appleby_Spurling_Hunter>",
+          "score": 0.36985445,
+          "title": "Appleby Spurling Hunter"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Liberman_Broadcasting>",
+          "score": 0.36302194,
+          "title": "Liberman Broadcasting"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:ABC_(1922_automobile)>",
+          "score": 0.35744098,
+          "title": "ABC (1922 automobile)"
+        }
+      ]
+    },
+    {
+      "query_i": 2,
+      "query_id": "<dbpedia:Jonas_Valley>",
+      "latency_ms": 4.8499,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:The_Valley_of_the_Shadow>",
+          "score": 0.3751616,
+          "title": "The Valley of the Shadow"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:F\u00f6hrenwald>",
+          "score": 0.3749091,
+          "title": "F\u00f6hrenwald"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Linda_Valley>",
+          "score": 0.3391671,
+          "title": "Linda Valley"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Birkenau_(Odenwald)>",
+          "score": 0.33372104,
+          "title": "Birkenau (Odenwald)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Hans_Jonas>",
+          "score": 0.33344975,
+          "title": "Hans Jonas"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Johnson_Island>",
+          "score": 0.3327163,
+          "title": "Johnson Island"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Fichtelberg>",
+          "score": 0.32814234,
+          "title": "Fichtelberg"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Jonas_Seawright>",
+          "score": 0.3265702,
+          "title": "Jonas Seawright"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Donaustauf>",
+          "score": 0.32126623,
+          "title": "Donaustauf"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Johannes_Ittmann>",
+          "score": 0.32072002,
+          "title": "Johannes Ittmann"
+        }
+      ]
+    },
+    {
+      "query_i": 3,
+      "query_id": "<dbpedia:Wilson_(film)>",
+      "latency_ms": 4.7009,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Richard_Edward_Wilson>",
+          "score": 0.4588511,
+          "title": "Richard Edward Wilson"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:W_(1974_film)>",
+          "score": 0.45568588,
+          "title": "W (1974 film)"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Ethel_Wilson>",
+          "score": 0.4211431,
+          "title": "Ethel Wilson"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Edwin_P._Wilson>",
+          "score": 0.42080805,
+          "title": "Edwin P. Wilson"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:William_Wilson_Morgan>",
+          "score": 0.40387744,
+          "title": "William Wilson Morgan"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Bob_Wilson_(footballer,_born_1941)>",
+          "score": 0.39891666,
+          "title": "Bob Wilson (footballer, born 1941)"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Willard_Van_Dyke>",
+          "score": 0.3980757,
+          "title": "Willard Van Dyke"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Kilroy_Was_Here_(film)>",
+          "score": 0.39545485,
+          "title": "Kilroy Was Here (film)"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Robert_R._Wilson>",
+          "score": 0.38580656,
+          "title": "Robert R. Wilson"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:The_Wolf_Man_(1941_film)>",
+          "score": 0.3772714,
+          "title": "The Wolf Man (1941 film)"
+        }
+      ]
+    },
+    {
+      "query_i": 4,
+      "query_id": "<dbpedia:Central_Bank_of_Kuwait>",
+      "latency_ms": 4.885,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Monetary_base>",
+          "score": 0.41113612,
+          "title": "Monetary base"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Monetary_Authority_of_Macao>",
+          "score": 0.35914797,
+          "title": "Monetary Authority of Macao"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Reserve_currency>",
+          "score": 0.34390062,
+          "title": "Reserve currency"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Bank_and_Monument_stations>",
+          "score": 0.33583143,
+          "title": "Bank and Monument stations"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Kenya_Posts_and_Telecommunications_Corporation>",
+          "score": 0.3196049,
+          "title": "Kenya Posts and Telecommunications Corporation"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Pakistani_rupee>",
+          "score": 0.31867558,
+          "title": "Pakistani rupee"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:United_Bank_(Pakistan)>",
+          "score": 0.3071139,
+          "title": "United Bank (Pakistan)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Gaming_control_board>",
+          "score": 0.30289668,
+          "title": "Gaming control board"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:IKB_Deutsche_Industriebank>",
+          "score": 0.30075976,
+          "title": "IKB Deutsche Industriebank"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Bank_of_China_Group>",
+          "score": 0.30000612,
+          "title": "Bank of China Group"
+        }
+      ]
+    },
+    {
+      "query_i": 5,
+      "query_id": "<dbpedia:Baize>",
+      "latency_ms": 4.7909,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Glass_cloth>",
+          "score": 0.4248227,
+          "title": "Glass cloth"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Denim>",
+          "score": 0.3851776,
+          "title": "Denim"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Pool_(cue_sports)>",
+          "score": 0.35467148,
+          "title": "Pool (cue sports)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Woodsball>",
+          "score": 0.3280825,
+          "title": "Woodsball"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:The_Blauzes>",
+          "score": 0.3274166,
+          "title": "The Blauzes"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Lambswool>",
+          "score": 0.3239059,
+          "title": "Lambswool"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Gaudy>",
+          "score": 0.3142306,
+          "title": "Gaudy"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Brogue_shoe>",
+          "score": 0.3097599,
+          "title": "Brogue shoe"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Chaupar>",
+          "score": 0.3017356,
+          "title": "Chaupar"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Mazetown>",
+          "score": 0.29821354,
+          "title": "Mazetown"
+        }
+      ]
+    },
+    {
+      "query_i": 6,
+      "query_id": "<dbpedia:Zwierzyn,_Lubusz_Voivodeship>",
+      "latency_ms": 4.4832,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Jawor>",
+          "score": 0.4658046,
+          "title": "Jawor"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Polesie_National_Park>",
+          "score": 0.44449157,
+          "title": "Polesie National Park"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Piaski>",
+          "score": 0.4378125,
+          "title": "Piaski"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Grunwald,_Pozna\u0144>",
+          "score": 0.42120612,
+          "title": "Grunwald, Pozna\u0144"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Ostr\u00f3da>",
+          "score": 0.41693392,
+          "title": "Ostr\u00f3da"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:\u017dumberk>",
+          "score": 0.4161292,
+          "title": "\u017dumberk"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Wis\u0142a_Ma\u0142a>",
+          "score": 0.41348645,
+          "title": "Wis\u0142a Ma\u0142a"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Gmina_Supra\u015bl>",
+          "score": 0.41312274,
+          "title": "Gmina Supra\u015bl"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Tuchola_Forest>",
+          "score": 0.403351,
+          "title": "Tuchola Forest"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Zeulenroda-Triebes>",
+          "score": 0.3896215,
+          "title": "Zeulenroda-Triebes"
+        }
+      ]
+    },
+    {
+      "query_i": 7,
+      "query_id": "<dbpedia:A._M._Azahari>",
+      "latency_ms": 4.6457,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Mushabib_al-Hamlan>",
+          "score": 0.44609505,
+          "title": "Mushabib al-Hamlan"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Amjad_Farooqi>",
+          "score": 0.44392416,
+          "title": "Amjad Farooqi"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Abdul_Zahir_(Guantanamo_Bay_detainee_753)>",
+          "score": 0.4274595,
+          "title": "Abdul Zahir (Guantanamo Bay detainee 753)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Azarethes>",
+          "score": 0.41897064,
+          "title": "Azarethes"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Abdullah_Shah>",
+          "score": 0.39950675,
+          "title": "Abdullah Shah"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Hamoud_al_Aqla_al_Shuebi>",
+          "score": 0.39575842,
+          "title": "Hamoud al Aqla al Shuebi"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Bassam_Abdullah_bin_Bushar_al-Nahdi>",
+          "score": 0.3881393,
+          "title": "Bassam Abdullah bin Bushar al-Nahdi"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Samad_bey_Mehmandarov>",
+          "score": 0.3870901,
+          "title": "Samad bey Mehmandarov"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Najmuddin_Shaikh>",
+          "score": 0.38627,
+          "title": "Najmuddin Shaikh"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Ahmad_Adaya>",
+          "score": 0.3838767,
+          "title": "Ahmad Adaya"
+        }
+      ]
+    },
+    {
+      "query_i": 8,
+      "query_id": "<dbpedia:Dad_Loves_His_Work>",
+      "latency_ms": 4.3581,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:That's_Why_I'm_Here>",
+          "score": 0.6427478,
+          "title": "That's Why I'm Here"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Gay_Dad>",
+          "score": 0.39430538,
+          "title": "Gay Dad"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:I_Love_You_(Aaradhna_album)>",
+          "score": 0.38857883,
+          "title": "I Love You (Aaradhna album)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Fame_and_Wealth>",
+          "score": 0.3853153,
+          "title": "Fame and Wealth"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Hey_Now_Hey_(The_Other_Side_of_the_Sky)>",
+          "score": 0.38320106,
+          "title": "Hey Now Hey (The Other Side of the Sky)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:A_Hillbilly_Tribute_to_Mountain_Love>",
+          "score": 0.37891364,
+          "title": "A Hillbilly Tribute to Mountain Love"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Back_to_Bedlam>",
+          "score": 0.37743312,
+          "title": "Back to Bedlam"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Windows_and_Walls>",
+          "score": 0.3774181,
+          "title": "Windows and Walls"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Jobim_(album)>",
+          "score": 0.37421837,
+          "title": "Jobim (album)"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Come_to_Daddy>",
+          "score": 0.36831567,
+          "title": "Come to Daddy"
+        }
+      ]
+    },
+    {
+      "query_i": 9,
+      "query_id": "<dbpedia:Ferry_Hall_School>",
+      "latency_ms": 4.7065,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Corfe_Hills_School>",
+          "score": 0.403151,
+          "title": "Corfe Hills School"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Harlaw_Academy>",
+          "score": 0.3868773,
+          "title": "Harlaw Academy"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:North_Forest_Independent_School_District>",
+          "score": 0.3675335,
+          "title": "North Forest Independent School District"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Upper_Halliford>",
+          "score": 0.3599531,
+          "title": "Upper Halliford"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Island_School>",
+          "score": 0.35878706,
+          "title": "Island School"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Windfern_High_School>",
+          "score": 0.35571757,
+          "title": "Windfern High School"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Francis_Farewell>",
+          "score": 0.35121676,
+          "title": "Francis Farewell"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Forestville,_Michigan>",
+          "score": 0.34630072,
+          "title": "Forestville, Michigan"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Meadow_Hall_and_Wincobank_railway_station>",
+          "score": 0.34384194,
+          "title": "Meadow Hall and Wincobank railway station"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Chaucer_School,_Sheffield>",
+          "score": 0.34304315,
+          "title": "Chaucer School, Sheffield"
+        }
+      ]
+    },
+    {
+      "query_i": 10,
+      "query_id": "<dbpedia:Bus_mouse>",
+      "latency_ms": 4.5232,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:D-Bus>",
+          "score": 0.3826422,
+          "title": "D-Bus"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Enhanced_Cartridge_Interface>",
+          "score": 0.37101796,
+          "title": "Enhanced Cartridge Interface"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Interactive_whiteboard>",
+          "score": 0.35293904,
+          "title": "Interactive whiteboard"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:MOS_Technology_CIA>",
+          "score": 0.33727953,
+          "title": "MOS Technology CIA"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:B.A.T.>",
+          "score": 0.32160288,
+          "title": "B.A.T."
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Bo-Bo-Bo>",
+          "score": 0.32117298,
+          "title": "Bo-Bo-Bo"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Advanced_Configuration_and_Power_Interface>",
+          "score": 0.31981432,
+          "title": "Advanced Configuration and Power Interface"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Multilingual_User_Interface>",
+          "score": 0.31602147,
+          "title": "Multilingual User Interface"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Poqet_PC>",
+          "score": 0.3152939,
+          "title": "Poqet PC"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:SMIF_(interface)>",
+          "score": 0.3127044,
+          "title": "SMIF (interface)"
+        }
+      ]
+    },
+    {
+      "query_i": 11,
+      "query_id": "<dbpedia:United_Mine_Workers_of_America_v._Bagwell>",
+      "latency_ms": 4.7653,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:United_States_v._Darby_Lumber_Co.>",
+          "score": 0.4690565,
+          "title": "United States v. Darby Lumber Co."
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:R_v_Wigglesworth>",
+          "score": 0.3803763,
+          "title": "R v Wigglesworth"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Civil_Rights_Cases>",
+          "score": 0.3649562,
+          "title": "Civil Rights Cases"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:List_of_United_States_Supreme_Court_cases,_volume_56>",
+          "score": 0.356757,
+          "title": "List of United States Supreme Court cases, volume 56"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Corbiere_v_Canada_(Minister_of_Indian_and_Northern_Affairs)>",
+          "score": 0.3561898,
+          "title": "Corbiere v Canada (Minister of Indian and Northern Affairs)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:R_v_Clay>",
+          "score": 0.35480547,
+          "title": "R v Clay"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Minor_v._Happersett>",
+          "score": 0.3518056,
+          "title": "Minor v. Happersett"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Regents_of_the_University_of_California_v._Bakke>",
+          "score": 0.34771544,
+          "title": "Regents of the University of California v. Bakke"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Forsyth_County_v._Nationalist_Movement>",
+          "score": 0.34453583,
+          "title": "Forsyth County v. Nationalist Movement"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:List_of_United_States_Supreme_Court_cases,_volume_33>",
+          "score": 0.33371523,
+          "title": "List of United States Supreme Court cases, volume 33"
+        }
+      ]
+    },
+    {
+      "query_i": 12,
+      "query_id": "<dbpedia:Tintin_\u2013_Le_Temple_du_Soleil_\u2013_Le_Spectacle_Musical>",
+      "latency_ms": 4.6235,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Drood>",
+          "score": 0.3973499,
+          "title": "Drood"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Bombay_Dreams>",
+          "score": 0.36899483,
+          "title": "Bombay Dreams"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Red_Sun>",
+          "score": 0.34683457,
+          "title": "Red Sun"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:The_Second_Stage_Turbine_Blade_(comics)>",
+          "score": 0.34533733,
+          "title": "The Second Stage Turbine Blade (comics)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:The_Mysti_Show>",
+          "score": 0.32518846,
+          "title": "The Mysti Show"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Juno_(musical)>",
+          "score": 0.3234111,
+          "title": "Juno (musical)"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Grey_Gardens_(musical)>",
+          "score": 0.3222348,
+          "title": "Grey Gardens (musical)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Theli_(album)>",
+          "score": 0.31820527,
+          "title": "Theli (album)"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Monsieur_Zenith>",
+          "score": 0.31552693,
+          "title": "Monsieur Zenith"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Dirk_Arthur>",
+          "score": 0.31288198,
+          "title": "Dirk Arthur"
+        }
+      ]
+    },
+    {
+      "query_i": 13,
+      "query_id": "<dbpedia:MacRobertson's>",
+      "latency_ms": 4.8186,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:John_Robertson_(Scottish_Labour_Party_founder)>",
+          "score": 0.4225949,
+          "title": "John Robertson (Scottish Labour Party founder)"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:James_Forbes-Robertson>",
+          "score": 0.40869597,
+          "title": "James Forbes-Robertson"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:E._D._Smith>",
+          "score": 0.40269864,
+          "title": "E. D. Smith"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Walter_Schachner>",
+          "score": 0.3858636,
+          "title": "Walter Schachner"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Norman_Macfarlane,_Baron_Macfarlane_of_Bearsden>",
+          "score": 0.3820219,
+          "title": "Norman Macfarlane, Baron Macfarlane of Bearsden"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:P_Henderson_&_Company>",
+          "score": 0.37590182,
+          "title": "P Henderson & Company"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Bob_Falkenburg>",
+          "score": 0.36804762,
+          "title": "Bob Falkenburg"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:F._Ross_Johnson>",
+          "score": 0.3666098,
+          "title": "F. Ross Johnson"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Robert_Cecil,_1st_Viscount_Cecil_of_Chelwood>",
+          "score": 0.36480534,
+          "title": "Robert Cecil, 1st Viscount Cecil of Chelwood"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Macgregor,_Queensland>",
+          "score": 0.35449752,
+          "title": "Macgregor, Queensland"
+        }
+      ]
+    },
+    {
+      "query_i": 14,
+      "query_id": "<dbpedia:William_de_la_Barre>",
+      "latency_ms": 4.7399,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Henry_Bessemer>",
+          "score": 0.41446698,
+          "title": "Henry Bessemer"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Henry_Villard>",
+          "score": 0.41156688,
+          "title": "Henry Villard"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Lawrence_D._Miles>",
+          "score": 0.41030973,
+          "title": "Lawrence D. Miles"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Paul_Moody_(inventor)>",
+          "score": 0.40382126,
+          "title": "Paul Moody (inventor)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Frederick_Bramwell>",
+          "score": 0.3882799,
+          "title": "Frederick Bramwell"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Walter_Frederick_Ferrier>",
+          "score": 0.38689488,
+          "title": "Walter Frederick Ferrier"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:William_Houldsworth>",
+          "score": 0.38427615,
+          "title": "William Houldsworth"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:William_Freeman_Vilas>",
+          "score": 0.37877125,
+          "title": "William Freeman Vilas"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:David_Porter_McCorkle>",
+          "score": 0.36945018,
+          "title": "David Porter McCorkle"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:William_III,_Marquess_of_Montferrat>",
+          "score": 0.36803854,
+          "title": "William III, Marquess of Montferrat"
+        }
+      ]
+    },
+    {
+      "query_i": 15,
+      "query_id": "<dbpedia:SAPS_II>",
+      "latency_ms": 4.7401,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Sapes>",
+          "score": 0.3681039,
+          "title": "Sapes"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:SIDPERS>",
+          "score": 0.3557032,
+          "title": "SIDPERS"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:AS2>",
+          "score": 0.3398142,
+          "title": "AS2"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Risk_and_Safety_Statements>",
+          "score": 0.32297468,
+          "title": "Risk and Safety Statements"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Saiphos>",
+          "score": 0.3227784,
+          "title": "Saiphos"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:ISA-88>",
+          "score": 0.3150536,
+          "title": "ISA-88"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Shaken_baby_syndrome>",
+          "score": 0.30258477,
+          "title": "Shaken baby syndrome"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Polar_surface_area>",
+          "score": 0.29701608,
+          "title": "Polar surface area"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Hans_Sachs_(serologist)>",
+          "score": 0.28826177,
+          "title": "Hans Sachs (serologist)"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Gelasian_Sacramentary>",
+          "score": 0.28702354,
+          "title": "Gelasian Sacramentary"
+        }
+      ]
+    },
+    {
+      "query_i": 16,
+      "query_id": "<dbpedia:The_Power_of_One_(novel)>",
+      "latency_ms": 4.811,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Way_of_the_Peaceful_Warrior>",
+          "score": 0.40066904,
+          "title": "Way of the Peaceful Warrior"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:The_White_Peacock>",
+          "score": 0.37409604,
+          "title": "The White Peacock"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:First_King_of_Shannara>",
+          "score": 0.3550243,
+          "title": "First King of Shannara"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:The_Ruling_Class_(novel)>",
+          "score": 0.3405437,
+          "title": "The Ruling Class (novel)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Tomorrow_series>",
+          "score": 0.3323283,
+          "title": "Tomorrow series"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Christopher_Koch>",
+          "score": 0.3293057,
+          "title": "Christopher Koch"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Seize_the_Day_(novel)>",
+          "score": 0.3274337,
+          "title": "Seize the Day (novel)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:The_King_of_Ireland's_Son>",
+          "score": 0.3268736,
+          "title": "The King of Ireland's Son"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:The_Squares_of_the_City>",
+          "score": 0.32605463,
+          "title": "The Squares of the City"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:The_Fight_for_Manod>",
+          "score": 0.3256393,
+          "title": "The Fight for Manod"
+        }
+      ]
+    },
+    {
+      "query_i": 17,
+      "query_id": "<dbpedia:Religion_in_Nazi_Germany>",
+      "latency_ms": 4.7268,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Religion_in_ancient_Rome>",
+          "score": 0.454647,
+          "title": "Religion in ancient Rome"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Religion_in_Africa>",
+          "score": 0.43551993,
+          "title": "Religion in Africa"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Protestantism_in_Luxembourg>",
+          "score": 0.43330216,
+          "title": "Protestantism in Luxembourg"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Hinduism_in_Austria>",
+          "score": 0.3950528,
+          "title": "Hinduism in Austria"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Demographics_of_Austria>",
+          "score": 0.37638474,
+          "title": "Demographics of Austria"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Roman_Catholicism_in_Nicaragua>",
+          "score": 0.36838812,
+          "title": "Roman Catholicism in Nicaragua"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Minorities_in_Pakistan>",
+          "score": 0.32979232,
+          "title": "Minorities in Pakistan"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Roman_Catholicism_in_Belarus>",
+          "score": 0.3049583,
+          "title": "Roman Catholicism in Belarus"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Taoist_music>",
+          "score": 0.30378056,
+          "title": "Taoist music"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:III_(Germanic)_SS_Panzer_Corps>",
+          "score": 0.28034586,
+          "title": "III (Germanic) SS Panzer Corps"
+        }
+      ]
+    },
+    {
+      "query_i": 18,
+      "query_id": "<dbpedia:Aluminium_arsenide>",
+      "latency_ms": 4.9116,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Aluminium_gallium_indium_phosphide>",
+          "score": 0.6459385,
+          "title": "Aluminium gallium indium phosphide"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Double_heterostructure>",
+          "score": 0.54461074,
+          "title": "Double heterostructure"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Arsine_(data_page)>",
+          "score": 0.46453145,
+          "title": "Arsine (data page)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Alashiya>",
+          "score": 0.36823618,
+          "title": "Alashiya"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Titanium(III)_phosphide>",
+          "score": 0.3651679,
+          "title": "Titanium(III) phosphide"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Active_electronically_scanned_array>",
+          "score": 0.3408454,
+          "title": "Active electronically scanned array"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Caesium_chloride>",
+          "score": 0.3406637,
+          "title": "Caesium chloride"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Aspheric_lens>",
+          "score": 0.3294341,
+          "title": "Aspheric lens"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Liroconite>",
+          "score": 0.32755357,
+          "title": "Liroconite"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Alaska_School_Activities_Association>",
+          "score": 0.31615144,
+          "title": "Alaska School Activities Association"
+        }
+      ]
+    },
+    {
+      "query_i": 19,
+      "query_id": "<dbpedia:Kongnamul>",
+      "latency_ms": 4.6932,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Bulgogi>",
+          "score": 0.44290295,
+          "title": "Bulgogi"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Pamonha>",
+          "score": 0.37298134,
+          "title": "Pamonha"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Japanese_noodles>",
+          "score": 0.37048253,
+          "title": "Japanese noodles"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Dolma>",
+          "score": 0.36972082,
+          "title": "Dolma"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Momordica_charantia>",
+          "score": 0.35908115,
+          "title": "Momordica charantia"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Tav\u010de_grav\u010de>",
+          "score": 0.3576008,
+          "title": "Tav\u010de grav\u010de"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Botswana_cuisine>",
+          "score": 0.35245663,
+          "title": "Botswana cuisine"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Jiangxi_cuisine>",
+          "score": 0.34982142,
+          "title": "Jiangxi cuisine"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Bumbu>",
+          "score": 0.33951336,
+          "title": "Bumbu"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Valerianella_locusta>",
+          "score": 0.33792567,
+          "title": "Valerianella locusta"
+        }
+      ]
+    },
+    {
+      "query_i": 20,
+      "query_id": "<dbpedia:B_symptoms>",
+      "latency_ms": 4.6095,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Leukemia>",
+          "score": 0.3816026,
+          "title": "Leukemia"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:B9>",
+          "score": 0.3579921,
+          "title": "B9"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Shaken_baby_syndrome>",
+          "score": 0.31925777,
+          "title": "Shaken baby syndrome"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Toxoplasmosis>",
+          "score": 0.3144651,
+          "title": "Toxoplasmosis"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Scarlet_fever>",
+          "score": 0.31022617,
+          "title": "Scarlet fever"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:GD2>",
+          "score": 0.30534694,
+          "title": "GD2"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Lewy_body>",
+          "score": 0.30484903,
+          "title": "Lewy body"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:SWOG>",
+          "score": 0.29916334,
+          "title": "SWOG"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:BAE_Systems_AB>",
+          "score": 0.2949514,
+          "title": "BAE Systems AB"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Biodistribution>",
+          "score": 0.29257596,
+          "title": "Biodistribution"
+        }
+      ]
+    },
+    {
+      "query_i": 21,
+      "query_id": "<dbpedia:Jeju_World_Cup_Stadium>",
+      "latency_ms": 4.7509,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Misaki_Park_Stadium>",
+          "score": 0.5209954,
+          "title": "Misaki Park Stadium"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Surakul_Stadium>",
+          "score": 0.4684659,
+          "title": "Surakul Stadium"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Jeju_Air>",
+          "score": 0.4475879,
+          "title": "Jeju Air"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Parkstadion>",
+          "score": 0.4335519,
+          "title": "Parkstadion"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Patriot_Stadium>",
+          "score": 0.42302012,
+          "title": "Patriot Stadium"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Stade_Linit\u00e9>",
+          "score": 0.39927447,
+          "title": "Stade Linit\u00e9"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Stade_Ahmadou_Ahidjo>",
+          "score": 0.39225513,
+          "title": "Stade Ahmadou Ahidjo"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Estadio_George_Capwell>",
+          "score": 0.386389,
+          "title": "Estadio George Capwell"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Stadio_Friuli>",
+          "score": 0.38230258,
+          "title": "Stadio Friuli"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Spartak_Stadium_(Varna)>",
+          "score": 0.38115257,
+          "title": "Spartak Stadium (Varna)"
+        }
+      ]
+    },
+    {
+      "query_i": 22,
+      "query_id": "<dbpedia:Ashburton_Collegiate>",
+      "latency_ms": 4.8026,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Askern_F.C.>",
+          "score": 0.43918192,
+          "title": "Askern F.C."
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Beachside_FC>",
+          "score": 0.40935475,
+          "title": "Beachside FC"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Chadderton_F.C.>",
+          "score": 0.40720415,
+          "title": "Chadderton F.C."
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Wellington_Australian_Football_League>",
+          "score": 0.39518,
+          "title": "Wellington Australian Football League"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Christchurch_Girls'_High_School>",
+          "score": 0.39334783,
+          "title": "Christchurch Girls' High School"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Coimbra_Football_Association>",
+          "score": 0.3910755,
+          "title": "Coimbra Football Association"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Adam_Ashley-Cooper>",
+          "score": 0.39061967,
+          "title": "Adam Ashley-Cooper"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Northern_League_(New_Zealand)>",
+          "score": 0.38992488,
+          "title": "Northern League (New Zealand)"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Holsworthy_A.F.C.>",
+          "score": 0.3813162,
+          "title": "Holsworthy A.F.C."
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:The_Academy_of_Football>",
+          "score": 0.37960806,
+          "title": "The Academy of Football"
+        }
+      ]
+    },
+    {
+      "query_i": 23,
+      "query_id": "<dbpedia:Imre_Nagy>",
+      "latency_ms": 4.5884,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Mikl\u00f3s_N\u00e9meth>",
+          "score": 0.58682686,
+          "title": "Mikl\u00f3s N\u00e9meth"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:H\u00e0m_Nghi>",
+          "score": 0.4006611,
+          "title": "H\u00e0m Nghi"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Nikolai_Bryukhanov>",
+          "score": 0.39867532,
+          "title": "Nikolai Bryukhanov"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Genrikh_Yagoda>",
+          "score": 0.39775383,
+          "title": "Genrikh Yagoda"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Imre_Steindl>",
+          "score": 0.37410825,
+          "title": "Imre Steindl"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Csilla_Moln\u00e1r>",
+          "score": 0.36294895,
+          "title": "Csilla Moln\u00e1r"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Hungarian_Working_People's_Party>",
+          "score": 0.35704416,
+          "title": "Hungarian Working People's Party"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Iwanari_Tomomichi>",
+          "score": 0.34534192,
+          "title": "Iwanari Tomomichi"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Clyde_Lee_Conrad>",
+          "score": 0.34052682,
+          "title": "Clyde Lee Conrad"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Mikl\u00f3s_B\u00e1nffy>",
+          "score": 0.33913487,
+          "title": "Mikl\u00f3s B\u00e1nffy"
+        }
+      ]
+    },
+    {
+      "query_i": 24,
+      "query_id": "<dbpedia:Everything_Will_Flow>",
+      "latency_ms": 4.3591,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Freelove>",
+          "score": 0.44233555,
+          "title": "Freelove"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Someday_We'll_Know>",
+          "score": 0.43067142,
+          "title": "Someday We'll Know"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:All_I_Want_to_Do_Is_Rock>",
+          "score": 0.40061918,
+          "title": "All I Want to Do Is Rock"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Laminar_Flow_(album)>",
+          "score": 0.38172537,
+          "title": "Laminar Flow (album)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Epic_(Faith_No_More_song)>",
+          "score": 0.37901115,
+          "title": "Epic (Faith No More song)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Songs_to_Learn_&_Sing>",
+          "score": 0.37826493,
+          "title": "Songs to Learn & Sing"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:In_Too_Deep_(Genesis_song)>",
+          "score": 0.37325674,
+          "title": "In Too Deep (Genesis song)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:We_Are_England>",
+          "score": 0.3691832,
+          "title": "We Are England"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Source_Tags_&_Codes>",
+          "score": 0.3678991,
+          "title": "Source Tags & Codes"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Trust_(KMFDM_song)>",
+          "score": 0.36683995,
+          "title": "Trust (KMFDM song)"
+        }
+      ]
+    },
+    {
+      "query_i": 25,
+      "query_id": "<dbpedia:Arabized_Berber>",
+      "latency_ms": 4.6989,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Romanization_of_Arabic>",
+          "score": 0.4406755,
+          "title": "Romanization of Arabic"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Eurabia>",
+          "score": 0.37271047,
+          "title": "Eurabia"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Auregnais_dialect>",
+          "score": 0.37127462,
+          "title": "Auregnais dialect"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Fezzan>",
+          "score": 0.3694556,
+          "title": "Fezzan"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Air_Tamajeq_language>",
+          "score": 0.35311675,
+          "title": "Air Tamajeq language"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Druze>",
+          "score": 0.3483847,
+          "title": "Druze"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:A'arab_Zaraq>",
+          "score": 0.34024107,
+          "title": "A'arab Zaraq"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Dervish>",
+          "score": 0.3379724,
+          "title": "Dervish"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Qwara_dialect>",
+          "score": 0.33696848,
+          "title": "Qwara dialect"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Aljama>",
+          "score": 0.32973915,
+          "title": "Aljama"
+        }
+      ]
+    },
+    {
+      "query_i": 26,
+      "query_id": "<dbpedia:Julia_Pastrana>",
+      "latency_ms": 4.8643,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Patricia_Dal>",
+          "score": 0.33234453,
+          "title": "Patricia Dal"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Paculla_Annia>",
+          "score": 0.31769958,
+          "title": "Paculla Annia"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Julia_Deakin>",
+          "score": 0.31716466,
+          "title": "Julia Deakin"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Tapir>",
+          "score": 0.31278622,
+          "title": "Tapir"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Claudia_Pulchra>",
+          "score": 0.3071211,
+          "title": "Claudia Pulchra"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Bornean_bearded_pig>",
+          "score": 0.30547982,
+          "title": "Bornean bearded pig"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Willie_Pastrano>",
+          "score": 0.30238706,
+          "title": "Willie Pastrano"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Leg_hair>",
+          "score": 0.30232385,
+          "title": "Leg hair"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Ambar_La_Fox>",
+          "score": 0.29858214,
+          "title": "Ambar La Fox"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Ben_Turpin>",
+          "score": 0.29563832,
+          "title": "Ben Turpin"
+        }
+      ]
+    },
+    {
+      "query_i": 27,
+      "query_id": "<dbpedia:Oleg_Firsov>",
+      "latency_ms": 4.5635,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Jos\u00e9_Leite_Lopes>",
+          "score": 0.40086207,
+          "title": "Jos\u00e9 Leite Lopes"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Robert_R._Wilson>",
+          "score": 0.39410132,
+          "title": "Robert R. Wilson"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Leonid_Bobylev>",
+          "score": 0.39084542,
+          "title": "Leonid Bobylev"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Leonid_Feodorov>",
+          "score": 0.38785872,
+          "title": "Leonid Feodorov"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Sidney_H._Liebson>",
+          "score": 0.38420904,
+          "title": "Sidney H. Liebson"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Asher_Peres>",
+          "score": 0.38019642,
+          "title": "Asher Peres"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Niels_Ryberg_Finsen>",
+          "score": 0.37331018,
+          "title": "Niels Ryberg Finsen"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Sylwester_Porowski>",
+          "score": 0.36979228,
+          "title": "Sylwester Porowski"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Lev_Vasilevsky>",
+          "score": 0.3662308,
+          "title": "Lev Vasilevsky"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Alexey_Chernyshov>",
+          "score": 0.3630807,
+          "title": "Alexey Chernyshov"
+        }
+      ]
+    },
+    {
+      "query_i": 28,
+      "query_id": "<dbpedia:Dickeya_dadantii>",
+      "latency_ms": 4.7646,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Entamoebidae>",
+          "score": 0.42154717,
+          "title": "Entamoebidae"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Caulobacteraceae>",
+          "score": 0.41350037,
+          "title": "Caulobacteraceae"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Begomovirus>",
+          "score": 0.40450463,
+          "title": "Begomovirus"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Clostridia>",
+          "score": 0.38011545,
+          "title": "Clostridia"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Oidium_(genus)>",
+          "score": 0.37647843,
+          "title": "Oidium (genus)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Bifidobacterium_animalis>",
+          "score": 0.37575516,
+          "title": "Bifidobacterium animalis"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Nabidae>",
+          "score": 0.37188897,
+          "title": "Nabidae"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Diogenidae>",
+          "score": 0.34869885,
+          "title": "Diogenidae"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Resedaceae>",
+          "score": 0.33523607,
+          "title": "Resedaceae"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Daphnia_galeata>",
+          "score": 0.33352455,
+          "title": "Daphnia galeata"
+        }
+      ]
+    },
+    {
+      "query_i": 29,
+      "query_id": "<dbpedia:Loot_(play)>",
+      "latency_ms": 4.6386,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Louis_Nowra>",
+          "score": 0.3920258,
+          "title": "Louis Nowra"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Zoot_Suit_(film)>",
+          "score": 0.37328506,
+          "title": "Zoot Suit (film)"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Drood>",
+          "score": 0.3683161,
+          "title": "Drood"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Death_and_the_Maiden_(play)>",
+          "score": 0.35492167,
+          "title": "Death and the Maiden (play)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Juno_(musical)>",
+          "score": 0.35133418,
+          "title": "Juno (musical)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Nottingham_Playhouse>",
+          "score": 0.35107955,
+          "title": "Nottingham Playhouse"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Play_for_Today>",
+          "score": 0.34990507,
+          "title": "Play for Today"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Henry_Nevil_Payne>",
+          "score": 0.34521997,
+          "title": "Henry Nevil Payne"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:The_Fantastic_Ordinary_World_of_Lutz_Rathenow:_Poems,_Plays_&_Stories>",
+          "score": 0.34429783,
+          "title": "The Fantastic Ordinary World of Lutz Rathenow: Poems, Plays & Stories"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Mother_lode>",
+          "score": 0.34380674,
+          "title": "Mother lode"
+        }
+      ]
+    },
+    {
+      "query_i": 30,
+      "query_id": "<dbpedia:West_Lafayette,_Indiana>",
+      "latency_ms": 4.5669,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:West_Chicago,_Illinois>",
+          "score": 0.4014369,
+          "title": "West Chicago, Illinois"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Lake_County,_Indiana>",
+          "score": 0.3970391,
+          "title": "Lake County, Indiana"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Williamsport_Falls>",
+          "score": 0.3783898,
+          "title": "Williamsport Falls"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:West_Wyoming,_Pennsylvania>",
+          "score": 0.37339303,
+          "title": "West Wyoming, Pennsylvania"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Watseka,_Illinois>",
+          "score": 0.3713237,
+          "title": "Watseka, Illinois"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Macy,_Indiana>",
+          "score": 0.35493568,
+          "title": "Macy, Indiana"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Lafayette_Young>",
+          "score": 0.3512061,
+          "title": "Lafayette Young"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:West_Pasco,_Washington>",
+          "score": 0.3478223,
+          "title": "West Pasco, Washington"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Chandler,_Indiana>",
+          "score": 0.34268367,
+          "title": "Chandler, Indiana"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Fishers,_Indiana>",
+          "score": 0.33693373,
+          "title": "Fishers, Indiana"
+        }
+      ]
+    },
+    {
+      "query_i": 31,
+      "query_id": "<dbpedia:Forced_suicide>",
+      "latency_ms": 4.7187,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Self-immolation>",
+          "score": 0.545341,
+          "title": "Self-immolation"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Force_(law)>",
+          "score": 0.41675186,
+          "title": "Force (law)"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Suicide_Club_(film)>",
+          "score": 0.3551548,
+          "title": "Suicide Club (film)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Forced_convection>",
+          "score": 0.33561277,
+          "title": "Forced convection"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Unilateral_disarmament>",
+          "score": 0.32164255,
+          "title": "Unilateral disarmament"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Democide>",
+          "score": 0.31810948,
+          "title": "Democide"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Non-lethal_weapon>",
+          "score": 0.3138401,
+          "title": "Non-lethal weapon"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Gibbeting>",
+          "score": 0.3068983,
+          "title": "Gibbeting"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Civil_disobedience>",
+          "score": 0.29848874,
+          "title": "Civil disobedience"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Action_T4>",
+          "score": 0.29432365,
+          "title": "Action T4"
+        }
+      ]
+    },
+    {
+      "query_i": 32,
+      "query_id": "<dbpedia:Pulaski,_Wisconsin>",
+      "latency_ms": 4.4434,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Pittsfield,_Wisconsin>",
+          "score": 0.5060996,
+          "title": "Pittsfield, Wisconsin"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Pierce,_Wisconsin>",
+          "score": 0.4821649,
+          "title": "Pierce, Wisconsin"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Ozaukee_County,_Wisconsin>",
+          "score": 0.4570289,
+          "title": "Ozaukee County, Wisconsin"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Shanagolden,_Wisconsin>",
+          "score": 0.42786437,
+          "title": "Shanagolden, Wisconsin"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Ogdensburg,_Wisconsin>",
+          "score": 0.42287028,
+          "title": "Ogdensburg, Wisconsin"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Eaton,_Brown_County,_Wisconsin>",
+          "score": 0.41990763,
+          "title": "Eaton, Brown County, Wisconsin"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Prairie_Farm,_Wisconsin>",
+          "score": 0.40538877,
+          "title": "Prairie Farm, Wisconsin"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Brule,_Wisconsin>",
+          "score": 0.3964197,
+          "title": "Brule, Wisconsin"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:La_Pointe_County,_Wisconsin>",
+          "score": 0.39186972,
+          "title": "La Pointe County, Wisconsin"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Lake_Poygan>",
+          "score": 0.3894559,
+          "title": "Lake Poygan"
+        }
+      ]
+    },
+    {
+      "query_i": 33,
+      "query_id": "<dbpedia:M0>",
+      "latency_ms": 4.7781,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:M50>",
+          "score": 0.4921246,
+          "title": "M50"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:M67>",
+          "score": 0.4814486,
+          "title": "M67"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:M44>",
+          "score": 0.44948304,
+          "title": "M44"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:M876_motorway>",
+          "score": 0.39796966,
+          "title": "M876 motorway"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Monetary_base>",
+          "score": 0.37195528,
+          "title": "Monetary base"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:MP4_(disambiguation)>",
+          "score": 0.3680219,
+          "title": "MP4 (disambiguation)"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:B9>",
+          "score": 0.35477003,
+          "title": "B9"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Mozambican_metica>",
+          "score": 0.3499545,
+          "title": "Mozambican metica"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:MTL_(transport_company)>",
+          "score": 0.33779716,
+          "title": "MTL (transport company)"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Master_warrant_officer>",
+          "score": 0.33777648,
+          "title": "Master warrant officer"
+        }
+      ]
+    },
+    {
+      "query_i": 34,
+      "query_id": "<dbpedia:Lentil>",
+      "latency_ms": 4.7645,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Lactuca>",
+          "score": 0.4039894,
+          "title": "Lactuca"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Valerianella_locusta>",
+          "score": 0.39842802,
+          "title": "Valerianella locusta"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Linguine>",
+          "score": 0.37669304,
+          "title": "Linguine"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Nelumbo>",
+          "score": 0.34013128,
+          "title": "Nelumbo"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Olla_podrida>",
+          "score": 0.33095127,
+          "title": "Olla podrida"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Tav\u010de_grav\u010de>",
+          "score": 0.32380322,
+          "title": "Tav\u010de grav\u010de"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Dolma>",
+          "score": 0.32111424,
+          "title": "Dolma"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Arthropodium_minus>",
+          "score": 0.3023553,
+          "title": "Arthropodium minus"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Prunella_(plant)>",
+          "score": 0.3004747,
+          "title": "Prunella (plant)"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Lennie_Lower>",
+          "score": 0.29519176,
+          "title": "Lennie Lower"
+        }
+      ]
+    },
+    {
+      "query_i": 35,
+      "query_id": "<dbpedia:Pointe_La_Rue>",
+      "latency_ms": 4.5131,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:La_Rochelle_\u2013_\u00cele_de_R\u00e9_Airport>",
+          "score": 0.4369768,
+          "title": "La Rochelle \u2013 \u00cele de R\u00e9 Airport"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Aldabra_Group>",
+          "score": 0.4182834,
+          "title": "Aldabra Group"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Saint-Denis,_R\u00e9union>",
+          "score": 0.40385285,
+          "title": "Saint-Denis, R\u00e9union"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Hermitage_Island>",
+          "score": 0.3934412,
+          "title": "Hermitage Island"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:La_Pointe_County,_Wisconsin>",
+          "score": 0.3632785,
+          "title": "La Pointe County, Wisconsin"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Le_Coteau>",
+          "score": 0.36179045,
+          "title": "Le Coteau"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Transport_in_R\u00e9union>",
+          "score": 0.35850984,
+          "title": "Transport in R\u00e9union"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Takutea>",
+          "score": 0.34496883,
+          "title": "Takutea"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Quebec_Route_362>",
+          "score": 0.34398353,
+          "title": "Quebec Route 362"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Seychelles_black_parrot>",
+          "score": 0.33932084,
+          "title": "Seychelles black parrot"
+        }
+      ]
+    },
+    {
+      "query_i": 36,
+      "query_id": "<dbpedia:Richard_Chee_Quee>",
+      "latency_ms": 4.6264,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Mark_Rushmere>",
+          "score": 0.4170143,
+          "title": "Mark Rushmere"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Shaun_Young>",
+          "score": 0.41380203,
+          "title": "Shaun Young"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Robert_Quine>",
+          "score": 0.39979988,
+          "title": "Robert Quine"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Keyuo_Craver>",
+          "score": 0.3972908,
+          "title": "Keyuo Craver"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Nasir_Hameed>",
+          "score": 0.39320502,
+          "title": "Nasir Hameed"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Tip_Snooke>",
+          "score": 0.39229804,
+          "title": "Tip Snooke"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Frederick_Cook_(cricketer)>",
+          "score": 0.3908735,
+          "title": "Frederick Cook (cricketer)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Richard_Baggallay>",
+          "score": 0.38813215,
+          "title": "Richard Baggallay"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Dick_Quax>",
+          "score": 0.38596013,
+          "title": "Dick Quax"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Walter_Lees>",
+          "score": 0.38302344,
+          "title": "Walter Lees"
+        }
+      ]
+    },
+    {
+      "query_i": 37,
+      "query_id": "<dbpedia:Eldar_R\u00f8nning>",
+      "latency_ms": 4.6908,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Bj\u00f8rn_Wirkola>",
+          "score": 0.47742537,
+          "title": "Bj\u00f8rn Wirkola"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Ric_Nordman>",
+          "score": 0.39884105,
+          "title": "Ric Nordman"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Roger_Norrington>",
+          "score": 0.394379,
+          "title": "Roger Norrington"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:J\u00f8rgen_L\u00f8vland>",
+          "score": 0.38347307,
+          "title": "J\u00f8rgen L\u00f8vland"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Thomas_Rundqvist>",
+          "score": 0.37321985,
+          "title": "Thomas Rundqvist"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Ralf_Edstr\u00f6m>",
+          "score": 0.37266982,
+          "title": "Ralf Edstr\u00f6m"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Petter_Belsvik>",
+          "score": 0.36745006,
+          "title": "Petter Belsvik"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Carl_Eldh>",
+          "score": 0.36685273,
+          "title": "Carl Eldh"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Eivind_Smith>",
+          "score": 0.3658577,
+          "title": "Eivind Smith"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Colin_Archer>",
+          "score": 0.3605635,
+          "title": "Colin Archer"
+        }
+      ]
+    },
+    {
+      "query_i": 38,
+      "query_id": "<dbpedia:Megaton_Man>",
+      "latency_ms": 4.8432,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Comet_Man>",
+          "score": 0.44167084,
+          "title": "Comet Man"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Savage_Henry_(comics)>",
+          "score": 0.42780742,
+          "title": "Savage Henry (comics)"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Mal_Duncan>",
+          "score": 0.4263297,
+          "title": "Mal Duncan"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Capit\u00e1n_Trueno>",
+          "score": 0.42146027,
+          "title": "Capit\u00e1n Trueno"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Rog-2000>",
+          "score": 0.39310977,
+          "title": "Rog-2000"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Dennis_the_Menace_(U.S._comics)>",
+          "score": 0.39146775,
+          "title": "Dennis the Menace (U.S. comics)"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Morgus_the_Magnificent>",
+          "score": 0.39060262,
+          "title": "Morgus the Magnificent"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Dane_(comics)>",
+          "score": 0.3895733,
+          "title": "Dane (comics)"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Pat_Dugan>",
+          "score": 0.3887179,
+          "title": "Pat Dugan"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Human_Tornado>",
+          "score": 0.3749773,
+          "title": "Human Tornado"
+        }
+      ]
+    },
+    {
+      "query_i": 39,
+      "query_id": "<dbpedia:Model_1816_Musket>",
+      "latency_ms": 4.8037,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Steyr_AUG>",
+          "score": 0.38042966,
+          "title": "Steyr AUG"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Karabinek_wz._1929>",
+          "score": 0.37541893,
+          "title": "Karabinek wz. 1929"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Kel-Tec_PLR-16>",
+          "score": 0.3719245,
+          "title": "Kel-Tec PLR-16"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:AK-74>",
+          "score": 0.3515727,
+          "title": "AK-74"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Pivot_gun>",
+          "score": 0.30599,
+          "title": "Pivot gun"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Jennings_J-22>",
+          "score": 0.3043449,
+          "title": "Jennings J-22"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Richard_Jordan_Gatling>",
+          "score": 0.3005259,
+          "title": "Richard Jordan Gatling"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:1781>",
+          "score": 0.29639256,
+          "title": "1781"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Snap_cap>",
+          "score": 0.29550835,
+          "title": "Snap cap"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:USS_LSM(R)-189>",
+          "score": 0.29471976,
+          "title": "USS LSM(R)-189"
+        }
+      ]
+    },
+    {
+      "query_i": 40,
+      "query_id": "<dbpedia:Montgomery_County,_Alabama>",
+      "latency_ms": 4.5349,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Macon_County,_Alabama>",
+          "score": 0.5602275,
+          "title": "Macon County, Alabama"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Prattville,_Alabama>",
+          "score": 0.5140945,
+          "title": "Prattville, Alabama"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Mount_Vernon,_Georgia>",
+          "score": 0.49867207,
+          "title": "Mount Vernon, Georgia"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Monroe_County,_Arkansas>",
+          "score": 0.4955529,
+          "title": "Monroe County, Arkansas"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Geneva_County,_Alabama>",
+          "score": 0.48252296,
+          "title": "Geneva County, Alabama"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Winston_County,_Alabama>",
+          "score": 0.47835216,
+          "title": "Winston County, Alabama"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:El_Monte,_California>",
+          "score": 0.4411835,
+          "title": "El Monte, California"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Alston,_Georgia>",
+          "score": 0.43612197,
+          "title": "Alston, Georgia"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Somerset,_Maryland>",
+          "score": 0.43546328,
+          "title": "Somerset, Maryland"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Goodwater,_Alabama>",
+          "score": 0.43152612,
+          "title": "Goodwater, Alabama"
+        }
+      ]
+    },
+    {
+      "query_i": 41,
+      "query_id": "<dbpedia:Ames_Lake,_Washington>",
+      "latency_ms": 4.7653,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Auburn,_Washington>",
+          "score": 0.4633718,
+          "title": "Auburn, Washington"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Lakeside,_California>",
+          "score": 0.4372333,
+          "title": "Lakeside, California"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Lake_Wilderness_Arboretum>",
+          "score": 0.40814817,
+          "title": "Lake Wilderness Arboretum"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Eastgate,_Washington>",
+          "score": 0.40464902,
+          "title": "Eastgate, Washington"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Glacier,_Washington>",
+          "score": 0.4045382,
+          "title": "Glacier, Washington"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Lakeland,_Minnesota>",
+          "score": 0.38814008,
+          "title": "Lakeland, Minnesota"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Roy,_Washington>",
+          "score": 0.37810642,
+          "title": "Roy, Washington"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Lake_Mayfield>",
+          "score": 0.37469292,
+          "title": "Lake Mayfield"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:West_Pasco,_Washington>",
+          "score": 0.36704525,
+          "title": "West Pasco, Washington"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Millcreek,_Utah>",
+          "score": 0.35466483,
+          "title": "Millcreek, Utah"
+        }
+      ]
+    },
+    {
+      "query_i": 42,
+      "query_id": "<dbpedia:Clinical_Global_Impression>",
+      "latency_ms": 4.581,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Gordon_Claridge>",
+          "score": 0.3615892,
+          "title": "Gordon Claridge"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Phrase_completions>",
+          "score": 0.35905516,
+          "title": "Phrase completions"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:American_Customer_Satisfaction_Index>",
+          "score": 0.33704692,
+          "title": "American Customer Satisfaction Index"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Gri_graphical_language>",
+          "score": 0.3267021,
+          "title": "Gri graphical language"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Constant_visual_observation>",
+          "score": 0.32315218,
+          "title": "Constant visual observation"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Combinatorial_meta-analysis>",
+          "score": 0.31867808,
+          "title": "Combinatorial meta-analysis"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Kyoto_College_of_Graduate_Studies_for_Informatics>",
+          "score": 0.31032032,
+          "title": "Kyoto College of Graduate Studies for Informatics"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Q_methodology>",
+          "score": 0.30416805,
+          "title": "Q methodology"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Rate_integrating_gyroscope>",
+          "score": 0.30168456,
+          "title": "Rate integrating gyroscope"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Global_Infectious_Disease_Epidemiology_Network>",
+          "score": 0.30015844,
+          "title": "Global Infectious Disease Epidemiology Network"
+        }
+      ]
+    },
+    {
+      "query_i": 43,
+      "query_id": "<dbpedia:Department_of_Militia_and_Defence>",
+      "latency_ms": 4.7012,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Canadian_Efficiency_Decoration>",
+          "score": 0.4273778,
+          "title": "Canadian Efficiency Decoration"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Volunteer_Defence_Corps_(Australia)>",
+          "score": 0.4260121,
+          "title": "Volunteer Defence Corps (Australia)"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Australian_Army_Reserve>",
+          "score": 0.37587172,
+          "title": "Australian Army Reserve"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Australian_Defence_College>",
+          "score": 0.37538302,
+          "title": "Australian Defence College"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Minister_for_the_Civil_Service>",
+          "score": 0.36896086,
+          "title": "Minister for the Civil Service"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Madras_Regiment>",
+          "score": 0.3549868,
+          "title": "Madras Regiment"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Dunsterforce>",
+          "score": 0.3547915,
+          "title": "Dunsterforce"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Bermuda_Volunteer/Territorial_Army_Units_1895\u20131965>",
+          "score": 0.35476753,
+          "title": "Bermuda Volunteer/Territorial Army Units 1895\u20131965"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Military_Advocate_General>",
+          "score": 0.35423148,
+          "title": "Military Advocate General"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Department_of_Transport,_Tourism_and_Sport>",
+          "score": 0.35298967,
+          "title": "Department of Transport, Tourism and Sport"
+        }
+      ]
+    },
+    {
+      "query_i": 44,
+      "query_id": "<dbpedia:Podluhy>",
+      "latency_ms": 4.5126,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:\u00dadlice>",
+          "score": 0.5404361,
+          "title": "\u00dadlice"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Zub\u010dice>",
+          "score": 0.48953158,
+          "title": "Zub\u010dice"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:\u017dumberk>",
+          "score": 0.48311752,
+          "title": "\u017dumberk"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:M\u00edrov>",
+          "score": 0.45130634,
+          "title": "M\u00edrov"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Veliny>",
+          "score": 0.4399174,
+          "title": "Veliny"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:M\u00ed\u010dov-Su\u0161ice>",
+          "score": 0.43722963,
+          "title": "M\u00ed\u010dov-Su\u0161ice"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Doupov_Mountains>",
+          "score": 0.4187628,
+          "title": "Doupov Mountains"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Municipality_of_Dobrepolje>",
+          "score": 0.4092164,
+          "title": "Municipality of Dobrepolje"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:M\u011bchenice>",
+          "score": 0.3786928,
+          "title": "M\u011bchenice"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Kr\u00e1sna_Ves>",
+          "score": 0.3473708,
+          "title": "Kr\u00e1sna Ves"
+        }
+      ]
+    },
+    {
+      "query_i": 45,
+      "query_id": "<dbpedia:Highland_Railway_Clan_Class>",
+      "latency_ms": 4.7267,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:LMS_Ivatt_Class_4>",
+          "score": 0.53954834,
+          "title": "LMS Ivatt Class 4"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:GNR_521_Class>",
+          "score": 0.5302032,
+          "title": "GNR 521 Class"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:British_Rail_Class_43_(Warship_Class)>",
+          "score": 0.5034303,
+          "title": "British Rail Class 43 (Warship Class)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:GWR_6959_Class>",
+          "score": 0.4896242,
+          "title": "GWR 6959 Class"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:GWR_Sun_Class>",
+          "score": 0.48844188,
+          "title": "GWR Sun Class"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Bavarian_S_2/6>",
+          "score": 0.464217,
+          "title": "Bavarian S 2/6"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:TS_Queen_Mary>",
+          "score": 0.4441741,
+          "title": "TS Queen Mary"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:British_Rail_Class_438>",
+          "score": 0.439952,
+          "title": "British Rail Class 438"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:GWR_4073_Class_5080_Defiant>",
+          "score": 0.43664107,
+          "title": "GWR 4073 Class 5080 Defiant"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:British_Rail_Class_104>",
+          "score": 0.40984958,
+          "title": "British Rail Class 104"
+        }
+      ]
+    },
+    {
+      "query_i": 46,
+      "query_id": "<dbpedia:James_McClatchy>",
+      "latency_ms": 4.5277,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:J._F._Archibald>",
+          "score": 0.417388,
+          "title": "J. F. Archibald"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:John_Edward_Taylor>",
+          "score": 0.41284984,
+          "title": "John Edward Taylor"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Samuel_Newhouse>",
+          "score": 0.4092506,
+          "title": "Samuel Newhouse"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Clingan_Jackson>",
+          "score": 0.4060207,
+          "title": "Clingan Jackson"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Benjamin_McConnell>",
+          "score": 0.39511126,
+          "title": "Benjamin McConnell"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Thomas_C._McCreery>",
+          "score": 0.38625085,
+          "title": "Thomas C. McCreery"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:James_Jackson_(politician)>",
+          "score": 0.38157722,
+          "title": "James Jackson (politician)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:James_G._Barry>",
+          "score": 0.38076705,
+          "title": "James G. Barry"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Jennie_McGraw>",
+          "score": 0.3778224,
+          "title": "Jennie McGraw"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Jacob_Whitman_Bailey>",
+          "score": 0.37474683,
+          "title": "Jacob Whitman Bailey"
+        }
+      ]
+    },
+    {
+      "query_i": 47,
+      "query_id": "<dbpedia:Tenugui>",
+      "latency_ms": 4.6732,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Do-rag>",
+          "score": 0.37715957,
+          "title": "Do-rag"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Hang_Ten>",
+          "score": 0.3599887,
+          "title": "Hang Ten"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Glass_cloth>",
+          "score": 0.3574492,
+          "title": "Glass cloth"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:\u014cnusa>",
+          "score": 0.34191418,
+          "title": "\u014cnusa"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Tie-dye>",
+          "score": 0.33814323,
+          "title": "Tie-dye"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Y\u00fcr\u00fck_rug>",
+          "score": 0.33803627,
+          "title": "Y\u00fcr\u00fck rug"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Tughra>",
+          "score": 0.31789285,
+          "title": "Tughra"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Denim>",
+          "score": 0.31504434,
+          "title": "Denim"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Japanese_noodles>",
+          "score": 0.3079546,
+          "title": "Japanese noodles"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Japanese_tea_ceremony>",
+          "score": 0.29865313,
+          "title": "Japanese tea ceremony"
+        }
+      ]
+    },
+    {
+      "query_i": 48,
+      "query_id": "<dbpedia:Remedy_Corporation>",
+      "latency_ms": 4.6799,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Reckitt_Benckiser>",
+          "score": 0.36303332,
+          "title": "Reckitt Benckiser"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Advanced_meat_recovery>",
+          "score": 0.3526566,
+          "title": "Advanced meat recovery"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Rannoch_Corp.>",
+          "score": 0.34717596,
+          "title": "Rannoch Corp."
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Canada_Remote_Systems>",
+          "score": 0.34363073,
+          "title": "Canada Remote Systems"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Rheinmetall>",
+          "score": 0.33355635,
+          "title": "Rheinmetall"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:BAE_Systems_AB>",
+          "score": 0.32572937,
+          "title": "BAE Systems AB"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Conflict_Resolver>",
+          "score": 0.3257169,
+          "title": "Conflict Resolver"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Claris_Organizer>",
+          "score": 0.32475066,
+          "title": "Claris Organizer"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Remote_administration>",
+          "score": 0.3167247,
+          "title": "Remote administration"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Recreational_Software_Advisory_Council>",
+          "score": 0.31617624,
+          "title": "Recreational Software Advisory Council"
+        }
+      ]
+    },
+    {
+      "query_i": 49,
+      "query_id": "<dbpedia:Morfa_Nefyn>",
+      "latency_ms": 4.5886,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Penhelig_railway_station>",
+          "score": 0.46772486,
+          "title": "Penhelig railway station"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Great_Orme>",
+          "score": 0.45210466,
+          "title": "Great Orme"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Morven,_North_Carolina>",
+          "score": 0.42521155,
+          "title": "Morven, North Carolina"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Moneyneany>",
+          "score": 0.39928666,
+          "title": "Moneyneany"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Trelech>",
+          "score": 0.3767627,
+          "title": "Trelech"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:North_Fork,_Suffolk_County,_New_York>",
+          "score": 0.37421855,
+          "title": "North Fork, Suffolk County, New York"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Esgairgeiliog>",
+          "score": 0.36790946,
+          "title": "Esgairgeiliog"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Balnamore>",
+          "score": 0.36699682,
+          "title": "Balnamore"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Morpeth_railway_station>",
+          "score": 0.36645287,
+          "title": "Morpeth railway station"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Plasmarl>",
+          "score": 0.36640626,
+          "title": "Plasmarl"
+        }
+      ]
+    },
+    {
+      "query_i": 50,
+      "query_id": "<dbpedia:B\u00e9doin>",
+      "latency_ms": 45.1115,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Le_Coteau>",
+          "score": 0.44700047,
+          "title": "Le Coteau"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Saint-Jouin>",
+          "score": 0.4283607,
+          "title": "Saint-Jouin"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Le_Puy,_Doubs>",
+          "score": 0.41893256,
+          "title": "Le Puy, Doubs"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Saint-Martin-Don>",
+          "score": 0.41443217,
+          "title": "Saint-Martin-Don"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Cintheaux>",
+          "score": 0.41109192,
+          "title": "Cintheaux"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Basseneville>",
+          "score": 0.40547013,
+          "title": "Basseneville"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Bovezzo>",
+          "score": 0.39341703,
+          "title": "Bovezzo"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Saint-Jean-de-Niost>",
+          "score": 0.39315802,
+          "title": "Saint-Jean-de-Niost"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Choisy,_Haute-Savoie>",
+          "score": 0.38729417,
+          "title": "Choisy, Haute-Savoie"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Gibourne>",
+          "score": 0.3866193,
+          "title": "Gibourne"
+        }
+      ]
+    },
+    {
+      "query_i": 51,
+      "query_id": "<dbpedia:The_Collection_(Alanis_Morissette_album)>",
+      "latency_ms": 4.6863,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Anthology_(Selena_album)>",
+          "score": 0.47423625,
+          "title": "Anthology (Selena album)"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Devo's_Greatest_Hits>",
+          "score": 0.45116466,
+          "title": "Devo's Greatest Hits"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:The_Best_of_Sugar_Ray>",
+          "score": 0.45080164,
+          "title": "The Best of Sugar Ray"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Devo's_Greatest_Misses>",
+          "score": 0.44277608,
+          "title": "Devo's Greatest Misses"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Films_About_Ghosts_(The_Best_Of...)>",
+          "score": 0.44266915,
+          "title": "Films About Ghosts (The Best Of...)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Classic_Masters_(Blind_Melon_album)>",
+          "score": 0.43057436,
+          "title": "Classic Masters (Blind Melon album)"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:The_Best_of_Guided_by_Voices:_Human_Amusements_at_Hourly_Rates>",
+          "score": 0.41782856,
+          "title": "The Best of Guided by Voices: Human Amusements at Hourly Rates"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:The_Very_Best_of_Rod_Stewart>",
+          "score": 0.4058556,
+          "title": "The Very Best of Rod Stewart"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:The_Best_of_Testament>",
+          "score": 0.4029323,
+          "title": "The Best of Testament"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Diamonds_\u2013_The_Best_of_Dio>",
+          "score": 0.39304557,
+          "title": "Diamonds \u2013 The Best of Dio"
+        }
+      ]
+    },
+    {
+      "query_i": 52,
+      "query_id": "<dbpedia:Ojibway_Club>",
+      "latency_ms": 4.7788,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Victoria_Golf_Club>",
+          "score": 0.40628135,
+          "title": "Victoria Golf Club"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Ontario_Youth_Parliament>",
+          "score": 0.4035663,
+          "title": "Ontario Youth Parliament"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Park_Place_(Ontario)>",
+          "score": 0.35484052,
+          "title": "Park Place (Ontario)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Johnson_Island>",
+          "score": 0.35183936,
+          "title": "Johnson Island"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Ontario_Place_(theme_park)>",
+          "score": 0.34457213,
+          "title": "Ontario Place (theme park)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Ontario_Hockey_Association>",
+          "score": 0.3401805,
+          "title": "Ontario Hockey Association"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Eating_club>",
+          "score": 0.32809722,
+          "title": "Eating club"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Canadian_Canoe_Museum>",
+          "score": 0.32680216,
+          "title": "Canadian Canoe Museum"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Pottawatomi_River>",
+          "score": 0.32665744,
+          "title": "Pottawatomi River"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Jibacoa>",
+          "score": 0.32227907,
+          "title": "Jibacoa"
+        }
+      ]
+    },
+    {
+      "query_i": 53,
+      "query_id": "<dbpedia:Busia_District>",
+      "latency_ms": 4.7135,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Koboko_District>",
+          "score": 0.4390778,
+          "title": "Koboko District"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:West_Nile_sub-region>",
+          "score": 0.37845564,
+          "title": "West Nile sub-region"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Districts_of_Botswana>",
+          "score": 0.35896415,
+          "title": "Districts of Botswana"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Samuel_Egadu>",
+          "score": 0.32425743,
+          "title": "Samuel Egadu"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Fukui_Railway>",
+          "score": 0.30984908,
+          "title": "Fukui Railway"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Administrative_Zone_3_(Afar)>",
+          "score": 0.3065454,
+          "title": "Administrative Zone 3 (Afar)"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:East_Sussex>",
+          "score": 0.30633926,
+          "title": "East Sussex"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Bures,_England>",
+          "score": 0.30204207,
+          "title": "Bures, England"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Rasuwa_District>",
+          "score": 0.29839528,
+          "title": "Rasuwa District"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Bus_deregulation_in_Great_Britain>",
+          "score": 0.2963246,
+          "title": "Bus deregulation in Great Britain"
+        }
+      ]
+    },
+    {
+      "query_i": 54,
+      "query_id": "<dbpedia:Hashlife>",
+      "latency_ms": 4.7493,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Ray_Solomonoff>",
+          "score": 0.3626028,
+          "title": "Ray Solomonoff"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Lothar_Collatz>",
+          "score": 0.33791053,
+          "title": "Lothar Collatz"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Reliability_theory_of_aging_and_longevity>",
+          "score": 0.3155541,
+          "title": "Reliability theory of aging and longevity"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Life_Is...Too_Short>",
+          "score": 0.29709804,
+          "title": "Life Is...Too Short"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Hexagonal_tiling>",
+          "score": 0.29001,
+          "title": "Hexagonal tiling"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Monte_Carlo_algorithm>",
+          "score": 0.2887779,
+          "title": "Monte Carlo algorithm"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Ehud_Shapiro>",
+          "score": 0.28660893,
+          "title": "Ehud Shapiro"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Lattice_protein>",
+          "score": 0.28544235,
+          "title": "Lattice protein"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Shaar_HaGilgulim>",
+          "score": 0.28470305,
+          "title": "Shaar HaGilgulim"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Hyolitha>",
+          "score": 0.28455937,
+          "title": "Hyolitha"
+        }
+      ]
+    },
+    {
+      "query_i": 55,
+      "query_id": "<dbpedia:Nikon_FE2>",
+      "latency_ms": 4.7677,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Nikon_Coolpix_5400>",
+          "score": 0.5027526,
+          "title": "Nikon Coolpix 5400"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Canon_EOS_30>",
+          "score": 0.4930707,
+          "title": "Canon EOS 30"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Ferrania>",
+          "score": 0.40525016,
+          "title": "Ferrania"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Patriarch_Nikon_of_Moscow>",
+          "score": 0.36598223,
+          "title": "Patriarch Nikon of Moscow"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Through-the-lens_metering>",
+          "score": 0.35104465,
+          "title": "Through-the-lens metering"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:List_of_digital_camera_brands>",
+          "score": 0.33683324,
+          "title": "List of digital camera brands"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Kodak_Retina>",
+          "score": 0.3359801,
+          "title": "Kodak Retina"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Hektor_(lens)>",
+          "score": 0.3318701,
+          "title": "Hektor (lens)"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Mini35>",
+          "score": 0.32837883,
+          "title": "Mini35"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Elektronika_MK-61>",
+          "score": 0.31938583,
+          "title": "Elektronika MK-61"
+        }
+      ]
+    },
+    {
+      "query_i": 56,
+      "query_id": "<dbpedia:Raise_Your_Voice>",
+      "latency_ms": 4.3913,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Reverie_Sound_Revue>",
+          "score": 0.3561235,
+          "title": "Reverie Sound Revue"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:By_Divine_Right>",
+          "score": 0.35384655,
+          "title": "By Divine Right"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Hairspray_(2007_film)>",
+          "score": 0.34769186,
+          "title": "Hairspray (2007 film)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Out_of_Reach_(film)>",
+          "score": 0.3452196,
+          "title": "Out of Reach (film)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Rockshow>",
+          "score": 0.3394342,
+          "title": "Rockshow"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Live_at_the_El_Rey_(film)>",
+          "score": 0.33756402,
+          "title": "Live at the El Rey (film)"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Wide_Awake_(1998_film)>",
+          "score": 0.3363283,
+          "title": "Wide Awake (1998 film)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:High_Art>",
+          "score": 0.33212104,
+          "title": "High Art"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Cory_Lee>",
+          "score": 0.3304825,
+          "title": "Cory Lee"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Lift_Your_Skinny_Fists_Like_Antennas_to_Heaven>",
+          "score": 0.32745776,
+          "title": "Lift Your Skinny Fists Like Antennas to Heaven"
+        }
+      ]
+    },
+    {
+      "query_i": 57,
+      "query_id": "<dbpedia:Audibert_&_Lavirotte>",
+      "latency_ms": 4.7218,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Antoine_(automobile)>",
+          "score": 0.53689253,
+          "title": "Antoine (automobile)"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:ABC_(1922_automobile)>",
+          "score": 0.4638303,
+          "title": "ABC (1922 automobile)"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Ralph_Lucas>",
+          "score": 0.41815856,
+          "title": "Ralph Lucas"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Henri_Chapron>",
+          "score": 0.4146039,
+          "title": "Henri Chapron"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Moon_Motor_Car>",
+          "score": 0.40825,
+          "title": "Moon Motor Car"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Cyclecar>",
+          "score": 0.38599074,
+          "title": "Cyclecar"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Vincent_Motorcycles>",
+          "score": 0.3853413,
+          "title": "Vincent Motorcycles"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Landini_(tractor)>",
+          "score": 0.3823271,
+          "title": "Landini (tractor)"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:La_Martiniere_Lyon>",
+          "score": 0.38029444,
+          "title": "La Martiniere Lyon"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Crestmobile>",
+          "score": 0.37658226,
+          "title": "Crestmobile"
+        }
+      ]
+    },
+    {
+      "query_i": 58,
+      "query_id": "<dbpedia:AA-1-class_submarine>",
+      "latency_ms": 4.5413,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:USS_Tinosa_(SSN-606)>",
+          "score": 0.4784693,
+          "title": "USS Tinosa (SSN-606)"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:USS_Naubuc_(1864)>",
+          "score": 0.47641796,
+          "title": "USS Naubuc (1864)"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:George_Washington-class_submarine>",
+          "score": 0.4664845,
+          "title": "George Washington-class submarine"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:USS_Tiburon_(SS-529)>",
+          "score": 0.4626842,
+          "title": "USS Tiburon (SS-529)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Gleaves-class_destroyer>",
+          "score": 0.45170859,
+          "title": "Gleaves-class destroyer"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:USS_Sabalo_(SS-302)>",
+          "score": 0.42384332,
+          "title": "USS Sabalo (SS-302)"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:North_American_A-5_Vigilante>",
+          "score": 0.42287356,
+          "title": "North American A-5 Vigilante"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:USS_Bream_(SS-243)>",
+          "score": 0.4147583,
+          "title": "USS Bream (SS-243)"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:USS_PC-1138>",
+          "score": 0.41025525,
+          "title": "USS PC-1138"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:USS_Card_(CVE-11)>",
+          "score": 0.40697303,
+          "title": "USS Card (CVE-11)"
+        }
+      ]
+    },
+    {
+      "query_i": 59,
+      "query_id": "<dbpedia:Brian_Head,_Utah>",
+      "latency_ms": 4.5126,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Rocky_Ridge,_Utah>",
+          "score": 0.4593972,
+          "title": "Rocky Ridge, Utah"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Millcreek,_Utah>",
+          "score": 0.40389428,
+          "title": "Millcreek, Utah"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Bondurant,_Wyoming>",
+          "score": 0.39139175,
+          "title": "Bondurant, Wyoming"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:City_Creek_(Utah)>",
+          "score": 0.38916367,
+          "title": "City Creek (Utah)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Area_codes_801_and_385>",
+          "score": 0.38160104,
+          "title": "Area codes 801 and 385"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Naples,_Utah>",
+          "score": 0.37491685,
+          "title": "Naples, Utah"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Bready>",
+          "score": 0.37184227,
+          "title": "Bready"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Brei\u00f0dalsv\u00edk>",
+          "score": 0.37088022,
+          "title": "Brei\u00f0dalsv\u00edk"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Briar,_Texas>",
+          "score": 0.37024972,
+          "title": "Briar, Texas"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Woodstock,_Vermont>",
+          "score": 0.3603999,
+          "title": "Woodstock, Vermont"
+        }
+      ]
+    },
+    {
+      "query_i": 60,
+      "query_id": "<dbpedia:John_Ritblat>",
+      "latency_ms": 4.4241,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Tim_Rathbone>",
+          "score": 0.4474224,
+          "title": "Tim Rathbone"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Mochtar_Riady>",
+          "score": 0.4221632,
+          "title": "Mochtar Riady"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:F._Ross_Johnson>",
+          "score": 0.4210484,
+          "title": "F. Ross Johnson"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Sir_John_Benn,_1st_Baronet>",
+          "score": 0.41852337,
+          "title": "Sir John Benn, 1st Baronet"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Richard_Bass>",
+          "score": 0.41426665,
+          "title": "Richard Bass"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Lloyd_Morrison>",
+          "score": 0.41317618,
+          "title": "Lloyd Morrison"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Richard_DeVos>",
+          "score": 0.41237354,
+          "title": "Richard DeVos"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:George_Broadbridge,_1st_Baron_Broadbridge>",
+          "score": 0.40134743,
+          "title": "George Broadbridge, 1st Baron Broadbridge"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Jeremy_Thomas>",
+          "score": 0.39855668,
+          "title": "Jeremy Thomas"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Richard_Baggallay>",
+          "score": 0.3958803,
+          "title": "Richard Baggallay"
+        }
+      ]
+    },
+    {
+      "query_i": 61,
+      "query_id": "<dbpedia:Walter_Braunfels>",
+      "latency_ms": 4.6874,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Eduard_Br\u00fccklmeier>",
+          "score": 0.4113188,
+          "title": "Eduard Br\u00fccklmeier"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Valentino_Braitenberg>",
+          "score": 0.39206415,
+          "title": "Valentino Braitenberg"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:David_M._Brahms>",
+          "score": 0.3861233,
+          "title": "David M. Brahms"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Rudolf_von_Scheliha>",
+          "score": 0.37753373,
+          "title": "Rudolf von Scheliha"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Hans_von_Herwarth>",
+          "score": 0.37725163,
+          "title": "Hans von Herwarth"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Eduard_Lassen>",
+          "score": 0.37699792,
+          "title": "Eduard Lassen"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Tilo_Wolff>",
+          "score": 0.37315565,
+          "title": "Tilo Wolff"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Ernest_Bornemann>",
+          "score": 0.36858654,
+          "title": "Ernest Bornemann"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Richard_Edward_Wilson>",
+          "score": 0.36617732,
+          "title": "Richard Edward Wilson"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Roman_Hoffstetter>",
+          "score": 0.36114067,
+          "title": "Roman Hoffstetter"
+        }
+      ]
+    },
+    {
+      "query_i": 62,
+      "query_id": "<dbpedia:Robert_Bonner_(politician)>",
+      "latency_ms": 4.7678,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Robert_L._Barry>",
+          "score": 0.50566745,
+          "title": "Robert L. Barry"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Ron_Basford>",
+          "score": 0.50329304,
+          "title": "Ron Basford"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Robert_Coates_(politician)>",
+          "score": 0.4993025,
+          "title": "Robert Coates (politician)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Bill_Robb>",
+          "score": 0.47721383,
+          "title": "Bill Robb"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Robert_Edwards_(politician)>",
+          "score": 0.45001853,
+          "title": "Robert Edwards (politician)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:George_Broadbridge,_1st_Baron_Broadbridge>",
+          "score": 0.4369608,
+          "title": "George Broadbridge, 1st Baron Broadbridge"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Bob_Brown_(offensive_lineman)>",
+          "score": 0.43642688,
+          "title": "Bob Brown (offensive lineman)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Farquhar_Oliver>",
+          "score": 0.43465173,
+          "title": "Farquhar Oliver"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:John_Lang_Nichol>",
+          "score": 0.43438342,
+          "title": "John Lang Nichol"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Bob_Newson>",
+          "score": 0.43271518,
+          "title": "Bob Newson"
+        }
+      ]
+    },
+    {
+      "query_i": 63,
+      "query_id": "<dbpedia:List_of_continent_name_etymologies>",
+      "latency_ms": 4.5315,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:List_of_U.S._county_name_etymologies_(S\u2013Z)>",
+          "score": 0.5254741,
+          "title": "List of U.S. county name etymologies (S\u2013Z)"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:List_of_Latin_names_of_mountains>",
+          "score": 0.39369172,
+          "title": "List of Latin names of mountains"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:List_of_eponyms_(L\u2013Z)>",
+          "score": 0.39039457,
+          "title": "List of eponyms (L\u2013Z)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:List_of_English_words_of_Welsh_origin>",
+          "score": 0.3893761,
+          "title": "List of English words of Welsh origin"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:List_of_eponyms_(A\u2013K)>",
+          "score": 0.38019794,
+          "title": "List of eponyms (A\u2013K)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Lists_of_galaxies>",
+          "score": 0.37878513,
+          "title": "Lists of galaxies"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:List_of_English_words_from_indigenous_languages_of_the_Americas>",
+          "score": 0.37759224,
+          "title": "List of English words from indigenous languages of the Americas"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Asia>",
+          "score": 0.37493774,
+          "title": "Asia"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:List_of_Roman_nomina>",
+          "score": 0.3502874,
+          "title": "List of Roman nomina"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:List_of_earth_and_atmospheric_sciences_journals>",
+          "score": 0.34696454,
+          "title": "List of earth and atmospheric sciences journals"
+        }
+      ]
+    },
+    {
+      "query_i": 64,
+      "query_id": "<dbpedia:Commutation_test>",
+      "latency_ms": 4.5041,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Simultaneous_communication>",
+          "score": 0.47087646,
+          "title": "Simultaneous communication"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Communication>",
+          "score": 0.4480129,
+          "title": "Communication"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Chemical_Communications>",
+          "score": 0.3549554,
+          "title": "Chemical Communications"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Readability_test>",
+          "score": 0.35104328,
+          "title": "Readability test"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Communications_Commission>",
+          "score": 0.34349066,
+          "title": "Communications Commission"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Comparison_of_synchronous_and_asynchronous_signalling>",
+          "score": 0.340736,
+          "title": "Comparison of synchronous and asynchronous signalling"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Q_methodology>",
+          "score": 0.33580935,
+          "title": "Q methodology"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Interposition_trunk>",
+          "score": 0.3353536,
+          "title": "Interposition trunk"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Ontological_commitment>",
+          "score": 0.3350982,
+          "title": "Ontological commitment"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Communicating_sequential_processes>",
+          "score": 0.31947467,
+          "title": "Communicating sequential processes"
+        }
+      ]
+    },
+    {
+      "query_i": 65,
+      "query_id": "<dbpedia:Shushtar>",
+      "latency_ms": 4.5447,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Kushk,_Afghanistan>",
+          "score": 0.4301599,
+          "title": "Kushk, Afghanistan"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Karkheh_River>",
+          "score": 0.41126734,
+          "title": "Karkheh River"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Palace_of_Ardashir>",
+          "score": 0.39341122,
+          "title": "Palace of Ardashir"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Oshnavieh>",
+          "score": 0.38586256,
+          "title": "Oshnavieh"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Qal'eh_Dokhtar>",
+          "score": 0.3796227,
+          "title": "Qal'eh Dokhtar"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Ikhshid>",
+          "score": 0.36138964,
+          "title": "Ikhshid"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Pursat>",
+          "score": 0.35388777,
+          "title": "Pursat"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Shuhada_District>",
+          "score": 0.34842524,
+          "title": "Shuhada District"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:University_of_Isfahan>",
+          "score": 0.33965325,
+          "title": "University of Isfahan"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:I\u0161taran>",
+          "score": 0.33825198,
+          "title": "I\u0161taran"
+        }
+      ]
+    },
+    {
+      "query_i": 66,
+      "query_id": "<dbpedia:Big_Bend_Water_District>",
+      "latency_ms": 4.7242,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Colorado_River_Indian_Tribes>",
+          "score": 0.37608618,
+          "title": "Colorado River Indian Tribes"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Jean,_Nevada>",
+          "score": 0.34403074,
+          "title": "Jean, Nevada"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:League_of_the_Southwest>",
+          "score": 0.34159753,
+          "title": "League of the Southwest"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Bend_of_the_River>",
+          "score": 0.33865476,
+          "title": "Bend of the River"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Metropolitan_Water_Board_(London)>",
+          "score": 0.3359207,
+          "title": "Metropolitan Water Board (London)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Bureau_of_Narcotics_and_Dangerous_Drugs>",
+          "score": 0.33257186,
+          "title": "Bureau of Narcotics and Dangerous Drugs"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Area_25_(Nevada_National_Security_Site)>",
+          "score": 0.3282805,
+          "title": "Area 25 (Nevada National Security Site)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Bartley_Water>",
+          "score": 0.317274,
+          "title": "Bartley Water"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Boyd_Gaming_300>",
+          "score": 0.31579304,
+          "title": "Boyd Gaming 300"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Bridge_City,_Louisiana>",
+          "score": 0.30511275,
+          "title": "Bridge City, Louisiana"
+        }
+      ]
+    },
+    {
+      "query_i": 67,
+      "query_id": "<dbpedia:Creation_Research_Society>",
+      "latency_ms": 5.1135,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Canada_Remote_Systems>",
+          "score": 0.47513482,
+          "title": "Canada Remote Systems"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Alt.religion.scientology>",
+          "score": 0.4077962,
+          "title": "Alt.religion.scientology"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Recreational_Software_Advisory_Council>",
+          "score": 0.40515026,
+          "title": "Recreational Software Advisory Council"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Greening_Earth_Society>",
+          "score": 0.404442,
+          "title": "Greening Earth Society"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Council_of_Republicans_for_Environmental_Advocacy>",
+          "score": 0.3959351,
+          "title": "Council of Republicans for Environmental Advocacy"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Colorado_Center_for_Astrodynamics_Research>",
+          "score": 0.35899186,
+          "title": "Colorado Center for Astrodynamics Research"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Institute_for_the_Study_of_Academic_Racism>",
+          "score": 0.35747266,
+          "title": "Institute for the Study of Academic Racism"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Royal_Society_of_St_George>",
+          "score": 0.35267472,
+          "title": "Royal Society of St George"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Research>",
+          "score": 0.34983116,
+          "title": "Research"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Bees,_Wasps_and_Ants_Recording_Society>",
+          "score": 0.3374975,
+          "title": "Bees, Wasps and Ants Recording Society"
+        }
+      ]
+    },
+    {
+      "query_i": 68,
+      "query_id": "<dbpedia:Heckmondwike>",
+      "latency_ms": 4.589,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Barwick_in_Elmet_and_Scholes>",
+          "score": 0.50078666,
+          "title": "Barwick in Elmet and Scholes"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Alwoodley>",
+          "score": 0.45749372,
+          "title": "Alwoodley"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Woodhouse,_South_Yorkshire>",
+          "score": 0.4445921,
+          "title": "Woodhouse, South Yorkshire"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Cragg_Vale>",
+          "score": 0.4362043,
+          "title": "Cragg Vale"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Kidderminster>",
+          "score": 0.43068302,
+          "title": "Kidderminster"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Queensbury_and_Shelf_Urban_District>",
+          "score": 0.42402083,
+          "title": "Queensbury and Shelf Urban District"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Arkendale>",
+          "score": 0.41286218,
+          "title": "Arkendale"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Heyfield,_Victoria>",
+          "score": 0.40822378,
+          "title": "Heyfield, Victoria"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Normanton_railway_station>",
+          "score": 0.4013979,
+          "title": "Normanton railway station"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Howardwick,_Texas>",
+          "score": 0.39289266,
+          "title": "Howardwick, Texas"
+        }
+      ]
+    },
+    {
+      "query_i": 69,
+      "query_id": "<dbpedia:Ralph_Beard_(baseball)>",
+      "latency_ms": 4.4043,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Ernest_Riles>",
+          "score": 0.45997578,
+          "title": "Ernest Riles"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Bobby_Balcena>",
+          "score": 0.4550154,
+          "title": "Bobby Balcena"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Steve_Arlin>",
+          "score": 0.45157504,
+          "title": "Steve Arlin"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Ralph_Shaa>",
+          "score": 0.45030987,
+          "title": "Ralph Shaa"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Ralph_Carney>",
+          "score": 0.44676307,
+          "title": "Ralph Carney"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Rick_Bauer>",
+          "score": 0.44535205,
+          "title": "Rick Bauer"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:John_Stanley_Beard>",
+          "score": 0.4438596,
+          "title": "John Stanley Beard"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Ray_Blades>",
+          "score": 0.43651503,
+          "title": "Ray Blades"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Orval_Overall>",
+          "score": 0.41671097,
+          "title": "Orval Overall"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Sal_Maglie>",
+          "score": 0.4066144,
+          "title": "Sal Maglie"
+        }
+      ]
+    },
+    {
+      "query_i": 70,
+      "query_id": "<dbpedia:Plantin-Moretus_Museum>",
+      "latency_ms": 4.644,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Johann_Amerbach>",
+          "score": 0.34585613,
+          "title": "Johann Amerbach"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Norwegian_Petroleum_Museum>",
+          "score": 0.33495444,
+          "title": "Norwegian Petroleum Museum"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Johannes_Gutenberg>",
+          "score": 0.31485325,
+          "title": "Johannes Gutenberg"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Boerner_Botanical_Gardens>",
+          "score": 0.30636463,
+          "title": "Boerner Botanical Gardens"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Edmond_Mart\u00e8ne>",
+          "score": 0.30359226,
+          "title": "Edmond Mart\u00e8ne"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Museum_of_Fine_Arts,_Houston>",
+          "score": 0.30229098,
+          "title": "Museum of Fine Arts, Houston"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Letterpress_printing>",
+          "score": 0.29970074,
+          "title": "Letterpress printing"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Plantago>",
+          "score": 0.29778898,
+          "title": "Plantago"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:National_Ornamental_Metal_Museum>",
+          "score": 0.29435784,
+          "title": "National Ornamental Metal Museum"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:UBC_Botanical_Garden_and_Centre_for_Plant_Research>",
+          "score": 0.29269594,
+          "title": "UBC Botanical Garden and Centre for Plant Research"
+        }
+      ]
+    },
+    {
+      "query_i": 71,
+      "query_id": "<dbpedia:Bovara>",
+      "latency_ms": 4.6681,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Bovezzo>",
+          "score": 0.5377563,
+          "title": "Bovezzo"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Bov_Municipality>",
+          "score": 0.459438,
+          "title": "Bov Municipality"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Tr\u00e9vi\u00e8res>",
+          "score": 0.416347,
+          "title": "Tr\u00e9vi\u00e8res"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Ivrea>",
+          "score": 0.40720376,
+          "title": "Ivrea"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Bocholt,_Germany>",
+          "score": 0.40600792,
+          "title": "Bocholt, Germany"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Belvidere,_Vermont>",
+          "score": 0.38878447,
+          "title": "Belvidere, Vermont"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Brokenborough>",
+          "score": 0.38418818,
+          "title": "Brokenborough"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Boyerstown>",
+          "score": 0.3825692,
+          "title": "Boyerstown"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Cadore>",
+          "score": 0.37212244,
+          "title": "Cadore"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Bo\u00dfdorf>",
+          "score": 0.37157157,
+          "title": "Bo\u00dfdorf"
+        }
+      ]
+    },
+    {
+      "query_i": 72,
+      "query_id": "<dbpedia:The_Legendary_Starfy_(series)>",
+      "latency_ms": 4.5429,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Astonishia_Story>",
+          "score": 0.40341353,
+          "title": "Astonishia Story"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Starbreeze_Studios>",
+          "score": 0.40160537,
+          "title": "Starbreeze Studios"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Super_Mario_Land>",
+          "score": 0.40090927,
+          "title": "Super Mario Land"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Star_Trek:_Stargazer>",
+          "score": 0.3860554,
+          "title": "Star Trek: Stargazer"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Fire_Emblem:_Shadow_Dragon_and_the_Blade_of_Light>",
+          "score": 0.36680946,
+          "title": "Fire Emblem: Shadow Dragon and the Blade of Light"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Stock_Ticker>",
+          "score": 0.3598271,
+          "title": "Stock Ticker"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Superfrog>",
+          "score": 0.35472804,
+          "title": "Superfrog"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Richard_Starzak>",
+          "score": 0.35357025,
+          "title": "Richard Starzak"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Tiny_Toon_Adventures:_Toonenstein>",
+          "score": 0.34556514,
+          "title": "Tiny Toon Adventures: Toonenstein"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Monster_Rancher>",
+          "score": 0.3415636,
+          "title": "Monster Rancher"
+        }
+      ]
+    },
+    {
+      "query_i": 73,
+      "query_id": "<dbpedia:Ferris_wheel>",
+      "latency_ms": 5.0011,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Enclosed_roller_coaster>",
+          "score": 0.40147954,
+          "title": "Enclosed roller coaster"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Slidewalk>",
+          "score": 0.3731243,
+          "title": "Slidewalk"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:WildCat_(Cedar_Point)>",
+          "score": 0.32953438,
+          "title": "WildCat (Cedar Point)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Beastie_(roller_coaster)>",
+          "score": 0.3273394,
+          "title": "Beastie (roller coaster)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Monorail>",
+          "score": 0.3229271,
+          "title": "Monorail"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Pedestrian>",
+          "score": 0.32252732,
+          "title": "Pedestrian"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Capsela>",
+          "score": 0.32210842,
+          "title": "Capsela"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Pivot_gun>",
+          "score": 0.32114282,
+          "title": "Pivot gun"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Tire_bead>",
+          "score": 0.31694824,
+          "title": "Tire bead"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Aircoasters>",
+          "score": 0.31588012,
+          "title": "Aircoasters"
+        }
+      ]
+    },
+    {
+      "query_i": 74,
+      "query_id": "<dbpedia:Shortest_path_problem>",
+      "latency_ms": 5.474,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Solving_the_geodesic_equations>",
+          "score": 0.3828804,
+          "title": "Solving the geodesic equations"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Intersection_(road)>",
+          "score": 0.32616746,
+          "title": "Intersection (road)"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Abstract_semantic_graph>",
+          "score": 0.3176742,
+          "title": "Abstract semantic graph"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Ancestral_graph>",
+          "score": 0.29780048,
+          "title": "Ancestral graph"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Rhumb_line>",
+          "score": 0.29081053,
+          "title": "Rhumb line"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Julius_Petersen>",
+          "score": 0.27689433,
+          "title": "Julius Petersen"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:NP-equivalent>",
+          "score": 0.27412093,
+          "title": "NP-equivalent"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Parkinson's_law_of_triviality>",
+          "score": 0.27139646,
+          "title": "Parkinson's law of triviality"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Jack_Edmonds>",
+          "score": 0.2676301,
+          "title": "Jack Edmonds"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Lebesgue_spine>",
+          "score": 0.26620632,
+          "title": "Lebesgue spine"
+        }
+      ]
+    },
+    {
+      "query_i": 75,
+      "query_id": "<dbpedia:Illinois_Route_93>",
+      "latency_ms": 4.68,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Illinois_Route_146>",
+          "score": 0.6174811,
+          "title": "Illinois Route 146"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Indiana_State_Road_53>",
+          "score": 0.48907983,
+          "title": "Indiana State Road 53"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Missouri_Route_135>",
+          "score": 0.4455858,
+          "title": "Missouri Route 135"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Quebec_Route_263>",
+          "score": 0.42378148,
+          "title": "Quebec Route 263"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Missouri_Route_125>",
+          "score": 0.40727508,
+          "title": "Missouri Route 125"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:West_Virginia_Route_39>",
+          "score": 0.402509,
+          "title": "West Virginia Route 39"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Winnipeg_Route_95>",
+          "score": 0.39761573,
+          "title": "Winnipeg Route 95"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Oklahoma_State_Highway_142>",
+          "score": 0.3857365,
+          "title": "Oklahoma State Highway 142"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:New_Hampshire_Route_132>",
+          "score": 0.38418633,
+          "title": "New Hampshire Route 132"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Missouri_Route_367>",
+          "score": 0.38158667,
+          "title": "Missouri Route 367"
+        }
+      ]
+    },
+    {
+      "query_i": 76,
+      "query_id": "<dbpedia:Compass_(drawing_tool)>",
+      "latency_ms": 4.4641,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:C.a.R.>",
+          "score": 0.5115962,
+          "title": "C.a.R."
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Pantograph>",
+          "score": 0.43356526,
+          "title": "Pantograph"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Map>",
+          "score": 0.39071584,
+          "title": "Map"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Rasp>",
+          "score": 0.36223146,
+          "title": "Rasp"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Rhumb_line>",
+          "score": 0.35248715,
+          "title": "Rhumb line"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Pivot_gun>",
+          "score": 0.34526673,
+          "title": "Pivot gun"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Claw_hammer>",
+          "score": 0.34300983,
+          "title": "Claw hammer"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Jewel_bearing>",
+          "score": 0.33639976,
+          "title": "Jewel bearing"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Celestial_coordinate_system>",
+          "score": 0.3346365,
+          "title": "Celestial coordinate system"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Intercept_method>",
+          "score": 0.3332079,
+          "title": "Intercept method"
+        }
+      ]
+    },
+    {
+      "query_i": 77,
+      "query_id": "<dbpedia:Gopal_Godse>",
+      "latency_ms": 4.8096,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Assassination_of_Mahatma_Gandhi>",
+          "score": 0.6251466,
+          "title": "Assassination of Mahatma Gandhi"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Vinoba_Bhave>",
+          "score": 0.4718046,
+          "title": "Vinoba Bhave"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Tarak_Nath_Das>",
+          "score": 0.326104,
+          "title": "Tarak Nath Das"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Gummo_Marx>",
+          "score": 0.32599714,
+          "title": "Gummo Marx"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Bhagat_Singh_Thind>",
+          "score": 0.31809688,
+          "title": "Bhagat Singh Thind"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Bola_Ige>",
+          "score": 0.31720448,
+          "title": "Bola Ige"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:George_V._N._Lothrop>",
+          "score": 0.31486326,
+          "title": "George V. N. Lothrop"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Matvei_Golovinski>",
+          "score": 0.31469804,
+          "title": "Matvei Golovinski"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:The_Godfather's_Revenge>",
+          "score": 0.30546716,
+          "title": "The Godfather's Revenge"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Augustinos_Kapodistrias>",
+          "score": 0.30517605,
+          "title": "Augustinos Kapodistrias"
+        }
+      ]
+    },
+    {
+      "query_i": 78,
+      "query_id": "<dbpedia:Queen_of_Italy>",
+      "latency_ms": 4.9072,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Heads_And_Tails>",
+          "score": 0.41423094,
+          "title": "Heads And Tails"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Crazy_Eights>",
+          "score": 0.39174074,
+          "title": "Crazy Eights"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Maria_Amalia_of_Naples_and_Sicily>",
+          "score": 0.38471985,
+          "title": "Maria Amalia of Naples and Sicily"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Maria_Theresa_of_Spain>",
+          "score": 0.380636,
+          "title": "Maria Theresa of Spain"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Italy_national_football_team>",
+          "score": 0.35679972,
+          "title": "Italy national football team"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Maest\u00e0>",
+          "score": 0.34766617,
+          "title": "Maest\u00e0"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:The_Three_Aces>",
+          "score": 0.34765828,
+          "title": "The Three Aces"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Mary_of_Guelders>",
+          "score": 0.32208574,
+          "title": "Mary of Guelders"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Lotus_(board_game)>",
+          "score": 0.32185957,
+          "title": "Lotus (board game)"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:King's_Quest_VI>",
+          "score": 0.3163516,
+          "title": "King's Quest VI"
+        }
+      ]
+    },
+    {
+      "query_i": 79,
+      "query_id": "<dbpedia:Reiki_Kushida>",
+      "latency_ms": 4.9064,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:528_Rezia>",
+          "score": 0.42254746,
+          "title": "528 Rezia"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Kazuhide_Uekusa>",
+          "score": 0.3964924,
+          "title": "Kazuhide Uekusa"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:167_Urda>",
+          "score": 0.37774974,
+          "title": "167 Urda"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Hinako_Sugiura>",
+          "score": 0.36763567,
+          "title": "Hinako Sugiura"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:73_Klytia>",
+          "score": 0.35611737,
+          "title": "73 Klytia"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Masaki_Kajishima>",
+          "score": 0.34648663,
+          "title": "Masaki Kajishima"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Kushk,_Afghanistan>",
+          "score": 0.34296584,
+          "title": "Kushk, Afghanistan"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Keiji_Tachikawa>",
+          "score": 0.33872035,
+          "title": "Keiji Tachikawa"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Rasheed_Ahmad_Siddiqui>",
+          "score": 0.3376093,
+          "title": "Rasheed Ahmad Siddiqui"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Yuka_(singer)>",
+          "score": 0.33484852,
+          "title": "Yuka (singer)"
+        }
+      ]
+    },
+    {
+      "query_i": 80,
+      "query_id": "<dbpedia:Swiss_National_Science_Foundation>",
+      "latency_ms": 5.5533,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:National_Student_Educational_Fund>",
+          "score": 0.5212811,
+          "title": "National Student Educational Fund"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:National_Space_Organization>",
+          "score": 0.39461952,
+          "title": "National Space Organization"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Richard_Lounsbery_Foundation>",
+          "score": 0.38459226,
+          "title": "Richard Lounsbery Foundation"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:United_Nations_Society_of_Writers>",
+          "score": 0.37325644,
+          "title": "United Nations Society of Writers"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Georgian_National_Academy_of_Sciences>",
+          "score": 0.36936772,
+          "title": "Georgian National Academy of Sciences"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Der_Bund>",
+          "score": 0.34803203,
+          "title": "Der Bund"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Forf\u00e1s>",
+          "score": 0.34384748,
+          "title": "Forf\u00e1s"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Swiss_football_league_system>",
+          "score": 0.34074,
+          "title": "Swiss football league system"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Independent_scholar>",
+          "score": 0.3377082,
+          "title": "Independent scholar"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:National_Radio_Astronomy_Observatory>",
+          "score": 0.3373441,
+          "title": "National Radio Astronomy Observatory"
+        }
+      ]
+    },
+    {
+      "query_i": 81,
+      "query_id": "<dbpedia:A_Requiem_for_Homo_Sapiens>",
+      "latency_ms": 5.9095,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Icehenge>",
+          "score": 0.38642365,
+          "title": "Icehenge"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:To_Your_Scattered_Bodies_Go>",
+          "score": 0.37840867,
+          "title": "To Your Scattered Bodies Go"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:So_Long,_and_Thanks_for_All_the_Fish>",
+          "score": 0.37534404,
+          "title": "So Long, and Thanks for All the Fish"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:The_Book_of_Skulls>",
+          "score": 0.37427592,
+          "title": "The Book of Skulls"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:The_Fall_of_Hyperion:_A_Dream>",
+          "score": 0.37258297,
+          "title": "The Fall of Hyperion: A Dream"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:His_Dark_Materials>",
+          "score": 0.36970532,
+          "title": "His Dark Materials"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:The_War_Machine>",
+          "score": 0.3625809,
+          "title": "The War Machine"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Metaman>",
+          "score": 0.35790384,
+          "title": "Metaman"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Trinity's_Child>",
+          "score": 0.34953547,
+          "title": "Trinity's Child"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Ascendance_(novel)>",
+          "score": 0.33756423,
+          "title": "Ascendance (novel)"
+        }
+      ]
+    },
+    {
+      "query_i": 82,
+      "query_id": "<dbpedia:CJLL-FM>",
+      "latency_ms": 4.8448,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:CBCL-FM>",
+          "score": 0.55458,
+          "title": "CBCL-FM"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:CFRH-FM>",
+          "score": 0.52839684,
+          "title": "CFRH-FM"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:WJLT>",
+          "score": 0.52084935,
+          "title": "WJLT"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:CFCM-DT>",
+          "score": 0.5079378,
+          "title": "CFCM-DT"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:WLLH>",
+          "score": 0.4763854,
+          "title": "WLLH"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:2CC>",
+          "score": 0.47509417,
+          "title": "2CC"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:CFCW_(AM)>",
+          "score": 0.465617,
+          "title": "CFCW (AM)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:WWJ_(AM)>",
+          "score": 0.45153123,
+          "title": "WWJ (AM)"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:KFJM>",
+          "score": 0.449543,
+          "title": "KFJM"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:WLR_FM>",
+          "score": 0.4351726,
+          "title": "WLR FM"
+        }
+      ]
+    },
+    {
+      "query_i": 83,
+      "query_id": "<dbpedia:Longwood,_Shimla>",
+      "latency_ms": 4.5068,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Woodhouse,_South_Yorkshire>",
+          "score": 0.4140337,
+          "title": "Woodhouse, South Yorkshire"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Woodlands,_Glasgow>",
+          "score": 0.40738824,
+          "title": "Woodlands, Glasgow"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Alwoodley>",
+          "score": 0.38633102,
+          "title": "Alwoodley"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Bushbury>",
+          "score": 0.38039836,
+          "title": "Bushbury"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Woodgrove_High_School>",
+          "score": 0.37433523,
+          "title": "Woodgrove High School"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Woodhurst>",
+          "score": 0.36264935,
+          "title": "Woodhurst"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Vienna_Woods>",
+          "score": 0.35715708,
+          "title": "Vienna Woods"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Longstone>",
+          "score": 0.35202688,
+          "title": "Longstone"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Broomfield_and_Kingswood>",
+          "score": 0.35156447,
+          "title": "Broomfield and Kingswood"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Chelmsley_Wood>",
+          "score": 0.349031,
+          "title": "Chelmsley Wood"
+        }
+      ]
+    },
+    {
+      "query_i": 84,
+      "query_id": "<dbpedia:Ernie_Chambers>",
+      "latency_ms": 4.327,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Ernest_Brown_(British_politician)>",
+          "score": 0.4589709,
+          "title": "Ernest Brown (British politician)"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:G._Richard_Chamberlin>",
+          "score": 0.43868718,
+          "title": "G. Richard Chamberlin"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:DiAnna_Schimek>",
+          "score": 0.41210228,
+          "title": "DiAnna Schimek"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Clint_Stennett>",
+          "score": 0.41092432,
+          "title": "Clint Stennett"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Nebraska_Supreme_Court>",
+          "score": 0.40133497,
+          "title": "Nebraska Supreme Court"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Edwin_E._Willis>",
+          "score": 0.4012362,
+          "title": "Edwin E. Willis"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Elmer_Ellsworth_Brown>",
+          "score": 0.39124864,
+          "title": "Elmer Ellsworth Brown"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:George_E._Donart>",
+          "score": 0.3884694,
+          "title": "George E. Donart"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Owen_H._Johnson>",
+          "score": 0.3865777,
+          "title": "Owen H. Johnson"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Paul_F._Jones>",
+          "score": 0.38131648,
+          "title": "Paul F. Jones"
+        }
+      ]
+    },
+    {
+      "query_i": 85,
+      "query_id": "<dbpedia:Brooklyn_Heights,_Ohio>",
+      "latency_ms": 44.849,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Preston_Heights,_Illinois>",
+          "score": 0.4321283,
+          "title": "Preston Heights, Illinois"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Byesville,_Ohio>",
+          "score": 0.40573037,
+          "title": "Byesville, Ohio"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Shawnee,_Perry_County,_Ohio>",
+          "score": 0.40477252,
+          "title": "Shawnee, Perry County, Ohio"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Solon,_Ohio>",
+          "score": 0.40183383,
+          "title": "Solon, Ohio"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Fairlawn,_Ohio>",
+          "score": 0.39223954,
+          "title": "Fairlawn, Ohio"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Flushing,_Ohio>",
+          "score": 0.3882782,
+          "title": "Flushing, Ohio"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Archbold,_Ohio>",
+          "score": 0.38242427,
+          "title": "Archbold, Ohio"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Brooksville,_Maine>",
+          "score": 0.3692802,
+          "title": "Brooksville, Maine"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Cardington,_Ohio>",
+          "score": 0.36432526,
+          "title": "Cardington, Ohio"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Fletcher,_Ohio>",
+          "score": 0.35846514,
+          "title": "Fletcher, Ohio"
+        }
+      ]
+    },
+    {
+      "query_i": 86,
+      "query_id": "<dbpedia:Nikki_Tilroe>",
+      "latency_ms": 4.9645,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Nikki_D>",
+          "score": 0.40940762,
+          "title": "Nikki D"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Margie_Gillis>",
+          "score": 0.37548116,
+          "title": "Margie Gillis"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Bettina_Welch>",
+          "score": 0.37197658,
+          "title": "Bettina Welch"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Lillian_Miller>",
+          "score": 0.36778373,
+          "title": "Lillian Miller"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Nicole_Sullivan>",
+          "score": 0.36742833,
+          "title": "Nicole Sullivan"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Theodore_Bikel>",
+          "score": 0.3575871,
+          "title": "Theodore Bikel"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Mikk_Mikiver>",
+          "score": 0.35650152,
+          "title": "Mikk Mikiver"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Lindsay_Robins>",
+          "score": 0.35605666,
+          "title": "Lindsay Robins"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Cynthia_Kereluk>",
+          "score": 0.35049683,
+          "title": "Cynthia Kereluk"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Lyndel_Rowe>",
+          "score": 0.3417788,
+          "title": "Lyndel Rowe"
+        }
+      ]
+    },
+    {
+      "query_i": 87,
+      "query_id": "<dbpedia:Teruo_Yajima>",
+      "latency_ms": 4.7892,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Yotaro_Kobayashi>",
+          "score": 0.48227817,
+          "title": "Yotaro Kobayashi"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Masaki_Tsuji>",
+          "score": 0.4711126,
+          "title": "Masaki Tsuji"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Masaki_Kajishima>",
+          "score": 0.45801482,
+          "title": "Masaki Kajishima"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Maguro_Fujita>",
+          "score": 0.45028472,
+          "title": "Maguro Fujita"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Hiroyuki_Nishimori>",
+          "score": 0.43822956,
+          "title": "Hiroyuki Nishimori"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Kiyohiko_Azuma>",
+          "score": 0.42461833,
+          "title": "Kiyohiko Azuma"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Yusaku_Yara>",
+          "score": 0.4127059,
+          "title": "Yusaku Yara"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Yasuhiko_Kawazu>",
+          "score": 0.39983144,
+          "title": "Yasuhiko Kawazu"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Robert_Tralins>",
+          "score": 0.3880612,
+          "title": "Robert Tralins"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Minoru_Shiraishi>",
+          "score": 0.38718212,
+          "title": "Minoru Shiraishi"
+        }
+      ]
+    },
+    {
+      "query_i": 88,
+      "query_id": "<dbpedia:Al_Bennett>",
+      "latency_ms": 4.4101,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Alvin_Schwartz_(children's_author)>",
+          "score": 0.43088317,
+          "title": "Alvin Schwartz (children's author)"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Albert_Grossman>",
+          "score": 0.4290945,
+          "title": "Albert Grossman"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Ace_Records_(United_Kingdom)>",
+          "score": 0.4189983,
+          "title": "Ace Records (United Kingdom)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Alcide_Nunez>",
+          "score": 0.41725057,
+          "title": "Alcide Nunez"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Al_Leach>",
+          "score": 0.40488368,
+          "title": "Al Leach"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Jackie_Allen_(American_football)>",
+          "score": 0.404859,
+          "title": "Jackie Allen (American football)"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Arthur_Lester_Benton>",
+          "score": 0.40005177,
+          "title": "Arthur Lester Benton"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Alfred_Chapman>",
+          "score": 0.3977372,
+          "title": "Alfred Chapman"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Don_Bennett>",
+          "score": 0.39761284,
+          "title": "Don Bennett"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Joe_Belmont>",
+          "score": 0.39604938,
+          "title": "Joe Belmont"
+        }
+      ]
+    },
+    {
+      "query_i": 89,
+      "query_id": "<dbpedia:Emil_Fuchs_(theologian)>",
+      "latency_ms": 4.3891,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Samuel_Adler_(rabbi)>",
+          "score": 0.43719977,
+          "title": "Samuel Adler (rabbi)"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Edward_Foss>",
+          "score": 0.42364883,
+          "title": "Edward Foss"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Ernest_Bornemann>",
+          "score": 0.4199261,
+          "title": "Ernest Bornemann"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Max_Bodenheimer>",
+          "score": 0.40347272,
+          "title": "Max Bodenheimer"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Fritz_K\u00fcnkel>",
+          "score": 0.40234134,
+          "title": "Fritz K\u00fcnkel"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Octavius_Brooks_Frothingham>",
+          "score": 0.39180732,
+          "title": "Octavius Brooks Frothingham"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Fritz_Lenz>",
+          "score": 0.38889617,
+          "title": "Fritz Lenz"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Luther_Goldman>",
+          "score": 0.38866735,
+          "title": "Luther Goldman"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Emil_Dimitrov>",
+          "score": 0.38072106,
+          "title": "Emil Dimitrov"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Albert_Fish_(politician)>",
+          "score": 0.37626362,
+          "title": "Albert Fish (politician)"
+        }
+      ]
+    },
+    {
+      "query_i": 90,
+      "query_id": "<dbpedia:The_Cherry-Tree_Carol>",
+      "latency_ms": 4.4471,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:The_Bent_Sae_Brown>",
+          "score": 0.46660718,
+          "title": "The Bent Sae Brown"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Gil_Brenton>",
+          "score": 0.45168117,
+          "title": "Gil Brenton"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Bonny_Portmore>",
+          "score": 0.42346698,
+          "title": "Bonny Portmore"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Hush,_Little_Baby>",
+          "score": 0.3784969,
+          "title": "Hush, Little Baby"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Cherry_Red_Records>",
+          "score": 0.3630099,
+          "title": "Cherry Red Records"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:The_Singing,_Springing_Lark>",
+          "score": 0.35774893,
+          "title": "The Singing, Springing Lark"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:In_the_Garden_(1912_song)>",
+          "score": 0.35756046,
+          "title": "In the Garden (1912 song)"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Winter_Wonderland>",
+          "score": 0.3544897,
+          "title": "Winter Wonderland"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Foggy_Dew_(English_song)>",
+          "score": 0.34799045,
+          "title": "Foggy Dew (English song)"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Cherry_Monroe>",
+          "score": 0.34428898,
+          "title": "Cherry Monroe"
+        }
+      ]
+    },
+    {
+      "query_i": 91,
+      "query_id": "<dbpedia:Murehwa_North>",
+      "latency_ms": 4.3377,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Marondera_East>",
+          "score": 0.64518064,
+          "title": "Marondera East"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Croydon_North_West_(UK_Parliament_constituency)>",
+          "score": 0.43501812,
+          "title": "Croydon North West (UK Parliament constituency)"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Northavon_(UK_Parliament_constituency)>",
+          "score": 0.41381583,
+          "title": "Northavon (UK Parliament constituency)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Dorowa>",
+          "score": 0.40649667,
+          "title": "Dorowa"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Meru_County>",
+          "score": 0.3656619,
+          "title": "Meru County"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:J._Nozipo_Maraire>",
+          "score": 0.34823805,
+          "title": "J. Nozipo Maraire"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Politics_of_Zimbabwe>",
+          "score": 0.34698996,
+          "title": "Politics of Zimbabwe"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Northwestern_economic_region>",
+          "score": 0.3449616,
+          "title": "Northwestern economic region"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:M\u00edrov>",
+          "score": 0.33920684,
+          "title": "M\u00edrov"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Argentine_Northwest>",
+          "score": 0.3387507,
+          "title": "Argentine Northwest"
+        }
+      ]
+    },
+    {
+      "query_i": 92,
+      "query_id": "<dbpedia:Cryptococcosis>",
+      "latency_ms": 4.3829,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Toxoplasmosis>",
+          "score": 0.44926786,
+          "title": "Toxoplasmosis"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Antifungal>",
+          "score": 0.41885364,
+          "title": "Antifungal"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Crithidia>",
+          "score": 0.37923273,
+          "title": "Crithidia"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Oidium_(genus)>",
+          "score": 0.37190086,
+          "title": "Oidium (genus)"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Global_Infectious_Disease_Epidemiology_Network>",
+          "score": 0.3701287,
+          "title": "Global Infectious Disease Epidemiology Network"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Ketoconazole>",
+          "score": 0.3542559,
+          "title": "Ketoconazole"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Feline_viral_rhinotracheitis>",
+          "score": 0.33032978,
+          "title": "Feline viral rhinotracheitis"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Neogi>",
+          "score": 0.32594645,
+          "title": "Neogi"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Platinosis>",
+          "score": 0.3126447,
+          "title": "Platinosis"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Phycomyces_blakesleeanus>",
+          "score": 0.31181037,
+          "title": "Phycomyces blakesleeanus"
+        }
+      ]
+    },
+    {
+      "query_i": 93,
+      "query_id": "<dbpedia:Marco_Antonio_Rodr\u00edguez>",
+      "latency_ms": 4.2528,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Marco_Adaggio>",
+          "score": 0.4906292,
+          "title": "Marco Adaggio"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Iv\u00e1n_Guerrero>",
+          "score": 0.43913466,
+          "title": "Iv\u00e1n Guerrero"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Marco_Antonio_de_Dominis>",
+          "score": 0.42941242,
+          "title": "Marco Antonio de Dominis"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Marco_Pascolo>",
+          "score": 0.414822,
+          "title": "Marco Pascolo"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Rodrigo_Gimeno>",
+          "score": 0.40157032,
+          "title": "Rodrigo Gimeno"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Roberto_Carlos_(footballer)>",
+          "score": 0.40079272,
+          "title": "Roberto Carlos (footballer)"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Mateo_Corbo>",
+          "score": 0.39938772,
+          "title": "Mateo Corbo"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Marco_Apicella>",
+          "score": 0.3861649,
+          "title": "Marco Apicella"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Ariel_Rot>",
+          "score": 0.37621394,
+          "title": "Ariel Rot"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Alfonso_Mart\u00ednez_Dom\u00ednguez>",
+          "score": 0.37115198,
+          "title": "Alfonso Mart\u00ednez Dom\u00ednguez"
+        }
+      ]
+    },
+    {
+      "query_i": 94,
+      "query_id": "<dbpedia:Egyptian_Feminist_Union>",
+      "latency_ms": 4.4945,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Jewish_feminism>",
+          "score": 0.42112613,
+          "title": "Jewish feminism"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:La_Voix_des_Femmes>",
+          "score": 0.39598835,
+          "title": "La Voix des Femmes"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Feminist_Studies>",
+          "score": 0.39086172,
+          "title": "Feminist Studies"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Namibia_Women's_Action_for_Equality_Party>",
+          "score": 0.38685015,
+          "title": "Namibia Women's Action for Equality Party"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Democratic_Union_(Russia)>",
+          "score": 0.3743563,
+          "title": "Democratic Union (Russia)"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Union_of_Workers'_Trade_Unions_of_Niger>",
+          "score": 0.3576034,
+          "title": "Union of Workers' Trade Unions of Niger"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Pakistan_Workers'_Federation>",
+          "score": 0.353365,
+          "title": "Pakistan Workers' Federation"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Fasci_Siciliani>",
+          "score": 0.34120598,
+          "title": "Fasci Siciliani"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:UEFA_Women's_Champions_League>",
+          "score": 0.33606085,
+          "title": "UEFA Women's Champions League"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Muslim_National_Unity_Alliance>",
+          "score": 0.3238546,
+          "title": "Muslim National Unity Alliance"
+        }
+      ]
+    },
+    {
+      "query_i": 95,
+      "query_id": "<dbpedia:Parks_and_open_spaces_in_Greenwich>",
+      "latency_ms": 4.3899,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Squares_in_London>",
+          "score": 0.41718194,
+          "title": "Squares in London"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Streatham_Common>",
+          "score": 0.41104478,
+          "title": "Streatham Common"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Lee,_London>",
+          "score": 0.41061288,
+          "title": "Lee, London"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Berkeley_Rose_Garden>",
+          "score": 0.36253875,
+          "title": "Berkeley Rose Garden"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Shooter's_Hill>",
+          "score": 0.35767078,
+          "title": "Shooter's Hill"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:London_and_Greenwich_Railway>",
+          "score": 0.35358167,
+          "title": "London and Greenwich Railway"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Wake_Green>",
+          "score": 0.35354182,
+          "title": "Wake Green"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Broadgate_Park>",
+          "score": 0.33821666,
+          "title": "Broadgate Park"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Allan_Park,_Ontario>",
+          "score": 0.33036262,
+          "title": "Allan Park, Ontario"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Kew_Gardens,_Queens>",
+          "score": 0.33031797,
+          "title": "Kew Gardens, Queens"
+        }
+      ]
+    },
+    {
+      "query_i": 96,
+      "query_id": "<dbpedia:Latchford>",
+      "latency_ms": 4.2588,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Warrington_Central_railway_station>",
+          "score": 0.44065136,
+          "title": "Warrington Central railway station"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Christleton>",
+          "score": 0.42481363,
+          "title": "Christleton"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Shadforth>",
+          "score": 0.41399813,
+          "title": "Shadforth"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Woolwich,_New_South_Wales>",
+          "score": 0.37882936,
+          "title": "Woolwich, New South Wales"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Trowbridge,_Cardiff>",
+          "score": 0.37882334,
+          "title": "Trowbridge, Cardiff"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Vickerstown>",
+          "score": 0.3786744,
+          "title": "Vickerstown"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Walton-le-Dale>",
+          "score": 0.37603986,
+          "title": "Walton-le-Dale"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Clayton_Brook>",
+          "score": 0.37026405,
+          "title": "Clayton Brook"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Fetcham>",
+          "score": 0.36865714,
+          "title": "Fetcham"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Warrington_Wolves>",
+          "score": 0.36264187,
+          "title": "Warrington Wolves"
+        }
+      ]
+    },
+    {
+      "query_i": 97,
+      "query_id": "<dbpedia:Muckle_Skerry>",
+      "latency_ms": 4.3555,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Birsay>",
+          "score": 0.41697934,
+          "title": "Birsay"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Sanda_Island>",
+          "score": 0.4067629,
+          "title": "Sanda Island"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:McNeil_Island>",
+          "score": 0.40244535,
+          "title": "McNeil Island"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:St._Matthew_Island>",
+          "score": 0.39262697,
+          "title": "St. Matthew Island"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Miseryfjellet>",
+          "score": 0.39206946,
+          "title": "Miseryfjellet"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Bressay>",
+          "score": 0.38522145,
+          "title": "Bressay"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Portknockie>",
+          "score": 0.37333056,
+          "title": "Portknockie"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Beauly_Firth>",
+          "score": 0.37223142,
+          "title": "Beauly Firth"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Kent_Island,_Maryland>",
+          "score": 0.37218586,
+          "title": "Kent Island, Maryland"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Piershill>",
+          "score": 0.36729747,
+          "title": "Piershill"
+        }
+      ]
+    },
+    {
+      "query_i": 98,
+      "query_id": "<dbpedia:Hellenization>",
+      "latency_ms": 4.9792,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Greece>",
+          "score": 0.42582637,
+          "title": "Greece"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Thessaloniki>",
+          "score": 0.33744556,
+          "title": "Thessaloniki"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Hermione_(mythology)>",
+          "score": 0.32998663,
+          "title": "Hermione (mythology)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Ancient_Greek_clubs>",
+          "score": 0.32731423,
+          "title": "Ancient Greek clubs"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Hattic_language>",
+          "score": 0.32071102,
+          "title": "Hattic language"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:Romanization_of_Arabic>",
+          "score": 0.3196385,
+          "title": "Romanization of Arabic"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:The_Anabasis_of_Alexander>",
+          "score": 0.31738907,
+          "title": "The Anabasis of Alexander"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:History_of_ancient_Egypt>",
+          "score": 0.31653398,
+          "title": "History of ancient Egypt"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Helleborine>",
+          "score": 0.3088689,
+          "title": "Helleborine"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Hymen_(god)>",
+          "score": 0.29720426,
+          "title": "Hymen (god)"
+        }
+      ]
+    },
+    {
+      "query_i": 99,
+      "query_id": "<dbpedia:Mike_Bannister>",
+      "latency_ms": 4.6138,
+      "hits": [
+        {
+          "rank": 1,
+          "corpus_id": "<dbpedia:Don_Bennett>",
+          "score": 0.4523614,
+          "title": "Don Bennett"
+        },
+        {
+          "rank": 2,
+          "corpus_id": "<dbpedia:Michael_Bailey_(businessman)>",
+          "score": 0.4104464,
+          "title": "Michael Bailey (businessman)"
+        },
+        {
+          "rank": 3,
+          "corpus_id": "<dbpedia:Mike_Southon_(writer)>",
+          "score": 0.38106436,
+          "title": "Mike Southon (writer)"
+        },
+        {
+          "rank": 4,
+          "corpus_id": "<dbpedia:Michael_Bywater>",
+          "score": 0.37014848,
+          "title": "Michael Bywater"
+        },
+        {
+          "rank": 5,
+          "corpus_id": "<dbpedia:Bruce_Dickinson>",
+          "score": 0.36755657,
+          "title": "Bruce Dickinson"
+        },
+        {
+          "rank": 6,
+          "corpus_id": "<dbpedia:John_Stapp>",
+          "score": 0.36413556,
+          "title": "John Stapp"
+        },
+        {
+          "rank": 7,
+          "corpus_id": "<dbpedia:Charles_Rumney_Samson>",
+          "score": 0.35523313,
+          "title": "Charles Rumney Samson"
+        },
+        {
+          "rank": 8,
+          "corpus_id": "<dbpedia:Robert_C._Springer>",
+          "score": 0.3480281,
+          "title": "Robert C. Springer"
+        },
+        {
+          "rank": 9,
+          "corpus_id": "<dbpedia:Jim_LeRoy>",
+          "score": 0.347093,
+          "title": "Jim LeRoy"
+        },
+        {
+          "rank": 10,
+          "corpus_id": "<dbpedia:Michael_Allmand>",
+          "score": 0.34370077,
+          "title": "Michael Allmand"
+        }
+      ]
+    }
+  ]
+}

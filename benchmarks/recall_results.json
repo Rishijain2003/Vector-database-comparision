@@ -1,0 +1,1225 @@
+{
+  "version": 1,
+  "k": 10,
+  "num_queries": 100,
+  "ground_truth_json": "/home/rishi/Endee/benchmarks/ground_truth_top10.json",
+  "generated_at": "2026-04-15T05:24:48.089795+00:00",
+  "backends": {
+    "qdrant": {
+      "source_json": "/home/rishi/Endee/benchmarks/qdrant_similarity.json",
+      "recall_at_k_mean": 1.0,
+      "recall_at_k_per_query": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_query": [
+        {
+          "query_i": 0,
+          "query_id": "<dbpedia:40th_Flight_Test_Squadron>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 1,
+          "query_id": "<dbpedia:AllianceBernstein>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 2,
+          "query_id": "<dbpedia:Jonas_Valley>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 3,
+          "query_id": "<dbpedia:Wilson_(film)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 4,
+          "query_id": "<dbpedia:Central_Bank_of_Kuwait>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 5,
+          "query_id": "<dbpedia:Baize>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 6,
+          "query_id": "<dbpedia:Zwierzyn,_Lubusz_Voivodeship>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 7,
+          "query_id": "<dbpedia:A._M._Azahari>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 8,
+          "query_id": "<dbpedia:Dad_Loves_His_Work>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 9,
+          "query_id": "<dbpedia:Ferry_Hall_School>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 10,
+          "query_id": "<dbpedia:Bus_mouse>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 11,
+          "query_id": "<dbpedia:United_Mine_Workers_of_America_v._Bagwell>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 12,
+          "query_id": "<dbpedia:Tintin_\u2013_Le_Temple_du_Soleil_\u2013_Le_Spectacle_Musical>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 13,
+          "query_id": "<dbpedia:MacRobertson's>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 14,
+          "query_id": "<dbpedia:William_de_la_Barre>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 15,
+          "query_id": "<dbpedia:SAPS_II>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 16,
+          "query_id": "<dbpedia:The_Power_of_One_(novel)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 17,
+          "query_id": "<dbpedia:Religion_in_Nazi_Germany>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 18,
+          "query_id": "<dbpedia:Aluminium_arsenide>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 19,
+          "query_id": "<dbpedia:Kongnamul>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 20,
+          "query_id": "<dbpedia:B_symptoms>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 21,
+          "query_id": "<dbpedia:Jeju_World_Cup_Stadium>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 22,
+          "query_id": "<dbpedia:Ashburton_Collegiate>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 23,
+          "query_id": "<dbpedia:Imre_Nagy>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 24,
+          "query_id": "<dbpedia:Everything_Will_Flow>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 25,
+          "query_id": "<dbpedia:Arabized_Berber>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 26,
+          "query_id": "<dbpedia:Julia_Pastrana>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 27,
+          "query_id": "<dbpedia:Oleg_Firsov>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 28,
+          "query_id": "<dbpedia:Dickeya_dadantii>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 29,
+          "query_id": "<dbpedia:Loot_(play)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 30,
+          "query_id": "<dbpedia:West_Lafayette,_Indiana>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 31,
+          "query_id": "<dbpedia:Forced_suicide>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 32,
+          "query_id": "<dbpedia:Pulaski,_Wisconsin>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 33,
+          "query_id": "<dbpedia:M0>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 34,
+          "query_id": "<dbpedia:Lentil>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 35,
+          "query_id": "<dbpedia:Pointe_La_Rue>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 36,
+          "query_id": "<dbpedia:Richard_Chee_Quee>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 37,
+          "query_id": "<dbpedia:Eldar_R\u00f8nning>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 38,
+          "query_id": "<dbpedia:Megaton_Man>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 39,
+          "query_id": "<dbpedia:Model_1816_Musket>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 40,
+          "query_id": "<dbpedia:Montgomery_County,_Alabama>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 41,
+          "query_id": "<dbpedia:Ames_Lake,_Washington>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 42,
+          "query_id": "<dbpedia:Clinical_Global_Impression>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 43,
+          "query_id": "<dbpedia:Department_of_Militia_and_Defence>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 44,
+          "query_id": "<dbpedia:Podluhy>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 45,
+          "query_id": "<dbpedia:Highland_Railway_Clan_Class>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 46,
+          "query_id": "<dbpedia:James_McClatchy>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 47,
+          "query_id": "<dbpedia:Tenugui>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 48,
+          "query_id": "<dbpedia:Remedy_Corporation>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 49,
+          "query_id": "<dbpedia:Morfa_Nefyn>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 50,
+          "query_id": "<dbpedia:B\u00e9doin>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 51,
+          "query_id": "<dbpedia:The_Collection_(Alanis_Morissette_album)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 52,
+          "query_id": "<dbpedia:Ojibway_Club>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 53,
+          "query_id": "<dbpedia:Busia_District>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 54,
+          "query_id": "<dbpedia:Hashlife>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 55,
+          "query_id": "<dbpedia:Nikon_FE2>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 56,
+          "query_id": "<dbpedia:Raise_Your_Voice>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 57,
+          "query_id": "<dbpedia:Audibert_&_Lavirotte>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 58,
+          "query_id": "<dbpedia:AA-1-class_submarine>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 59,
+          "query_id": "<dbpedia:Brian_Head,_Utah>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 60,
+          "query_id": "<dbpedia:John_Ritblat>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 61,
+          "query_id": "<dbpedia:Walter_Braunfels>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 62,
+          "query_id": "<dbpedia:Robert_Bonner_(politician)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 63,
+          "query_id": "<dbpedia:List_of_continent_name_etymologies>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 64,
+          "query_id": "<dbpedia:Commutation_test>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 65,
+          "query_id": "<dbpedia:Shushtar>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 66,
+          "query_id": "<dbpedia:Big_Bend_Water_District>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 67,
+          "query_id": "<dbpedia:Creation_Research_Society>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 68,
+          "query_id": "<dbpedia:Heckmondwike>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 69,
+          "query_id": "<dbpedia:Ralph_Beard_(baseball)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 70,
+          "query_id": "<dbpedia:Plantin-Moretus_Museum>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 71,
+          "query_id": "<dbpedia:Bovara>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 72,
+          "query_id": "<dbpedia:The_Legendary_Starfy_(series)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 73,
+          "query_id": "<dbpedia:Ferris_wheel>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 74,
+          "query_id": "<dbpedia:Shortest_path_problem>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 75,
+          "query_id": "<dbpedia:Illinois_Route_93>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 76,
+          "query_id": "<dbpedia:Compass_(drawing_tool)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 77,
+          "query_id": "<dbpedia:Gopal_Godse>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 78,
+          "query_id": "<dbpedia:Queen_of_Italy>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 79,
+          "query_id": "<dbpedia:Reiki_Kushida>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 80,
+          "query_id": "<dbpedia:Swiss_National_Science_Foundation>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 81,
+          "query_id": "<dbpedia:A_Requiem_for_Homo_Sapiens>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 82,
+          "query_id": "<dbpedia:CJLL-FM>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 83,
+          "query_id": "<dbpedia:Longwood,_Shimla>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 84,
+          "query_id": "<dbpedia:Ernie_Chambers>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 85,
+          "query_id": "<dbpedia:Brooklyn_Heights,_Ohio>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 86,
+          "query_id": "<dbpedia:Nikki_Tilroe>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 87,
+          "query_id": "<dbpedia:Teruo_Yajima>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 88,
+          "query_id": "<dbpedia:Al_Bennett>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 89,
+          "query_id": "<dbpedia:Emil_Fuchs_(theologian)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 90,
+          "query_id": "<dbpedia:The_Cherry-Tree_Carol>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 91,
+          "query_id": "<dbpedia:Murehwa_North>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 92,
+          "query_id": "<dbpedia:Cryptococcosis>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 93,
+          "query_id": "<dbpedia:Marco_Antonio_Rodr\u00edguez>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 94,
+          "query_id": "<dbpedia:Egyptian_Feminist_Union>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 95,
+          "query_id": "<dbpedia:Parks_and_open_spaces_in_Greenwich>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 96,
+          "query_id": "<dbpedia:Latchford>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 97,
+          "query_id": "<dbpedia:Muckle_Skerry>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 98,
+          "query_id": "<dbpedia:Hellenization>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 99,
+          "query_id": "<dbpedia:Mike_Bannister>",
+          "recall_at_k": 1.0
+        }
+      ]
+    },
+    "endee": {
+      "source_json": "/home/rishi/Endee/benchmarks/endee_similarity.json",
+      "recall_at_k_mean": 0.996,
+      "recall_at_k_per_query": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "per_query": [
+        {
+          "query_i": 0,
+          "query_id": "<dbpedia:40th_Flight_Test_Squadron>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 1,
+          "query_id": "<dbpedia:AllianceBernstein>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 2,
+          "query_id": "<dbpedia:Jonas_Valley>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 3,
+          "query_id": "<dbpedia:Wilson_(film)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 4,
+          "query_id": "<dbpedia:Central_Bank_of_Kuwait>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 5,
+          "query_id": "<dbpedia:Baize>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 6,
+          "query_id": "<dbpedia:Zwierzyn,_Lubusz_Voivodeship>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 7,
+          "query_id": "<dbpedia:A._M._Azahari>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 8,
+          "query_id": "<dbpedia:Dad_Loves_His_Work>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 9,
+          "query_id": "<dbpedia:Ferry_Hall_School>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 10,
+          "query_id": "<dbpedia:Bus_mouse>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 11,
+          "query_id": "<dbpedia:United_Mine_Workers_of_America_v._Bagwell>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 12,
+          "query_id": "<dbpedia:Tintin_\u2013_Le_Temple_du_Soleil_\u2013_Le_Spectacle_Musical>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 13,
+          "query_id": "<dbpedia:MacRobertson's>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 14,
+          "query_id": "<dbpedia:William_de_la_Barre>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 15,
+          "query_id": "<dbpedia:SAPS_II>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 16,
+          "query_id": "<dbpedia:The_Power_of_One_(novel)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 17,
+          "query_id": "<dbpedia:Religion_in_Nazi_Germany>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 18,
+          "query_id": "<dbpedia:Aluminium_arsenide>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 19,
+          "query_id": "<dbpedia:Kongnamul>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 20,
+          "query_id": "<dbpedia:B_symptoms>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 21,
+          "query_id": "<dbpedia:Jeju_World_Cup_Stadium>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 22,
+          "query_id": "<dbpedia:Ashburton_Collegiate>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 23,
+          "query_id": "<dbpedia:Imre_Nagy>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 24,
+          "query_id": "<dbpedia:Everything_Will_Flow>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 25,
+          "query_id": "<dbpedia:Arabized_Berber>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 26,
+          "query_id": "<dbpedia:Julia_Pastrana>",
+          "recall_at_k": 0.9
+        },
+        {
+          "query_i": 27,
+          "query_id": "<dbpedia:Oleg_Firsov>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 28,
+          "query_id": "<dbpedia:Dickeya_dadantii>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 29,
+          "query_id": "<dbpedia:Loot_(play)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 30,
+          "query_id": "<dbpedia:West_Lafayette,_Indiana>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 31,
+          "query_id": "<dbpedia:Forced_suicide>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 32,
+          "query_id": "<dbpedia:Pulaski,_Wisconsin>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 33,
+          "query_id": "<dbpedia:M0>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 34,
+          "query_id": "<dbpedia:Lentil>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 35,
+          "query_id": "<dbpedia:Pointe_La_Rue>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 36,
+          "query_id": "<dbpedia:Richard_Chee_Quee>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 37,
+          "query_id": "<dbpedia:Eldar_R\u00f8nning>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 38,
+          "query_id": "<dbpedia:Megaton_Man>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 39,
+          "query_id": "<dbpedia:Model_1816_Musket>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 40,
+          "query_id": "<dbpedia:Montgomery_County,_Alabama>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 41,
+          "query_id": "<dbpedia:Ames_Lake,_Washington>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 42,
+          "query_id": "<dbpedia:Clinical_Global_Impression>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 43,
+          "query_id": "<dbpedia:Department_of_Militia_and_Defence>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 44,
+          "query_id": "<dbpedia:Podluhy>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 45,
+          "query_id": "<dbpedia:Highland_Railway_Clan_Class>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 46,
+          "query_id": "<dbpedia:James_McClatchy>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 47,
+          "query_id": "<dbpedia:Tenugui>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 48,
+          "query_id": "<dbpedia:Remedy_Corporation>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 49,
+          "query_id": "<dbpedia:Morfa_Nefyn>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 50,
+          "query_id": "<dbpedia:B\u00e9doin>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 51,
+          "query_id": "<dbpedia:The_Collection_(Alanis_Morissette_album)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 52,
+          "query_id": "<dbpedia:Ojibway_Club>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 53,
+          "query_id": "<dbpedia:Busia_District>",
+          "recall_at_k": 0.9
+        },
+        {
+          "query_i": 54,
+          "query_id": "<dbpedia:Hashlife>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 55,
+          "query_id": "<dbpedia:Nikon_FE2>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 56,
+          "query_id": "<dbpedia:Raise_Your_Voice>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 57,
+          "query_id": "<dbpedia:Audibert_&_Lavirotte>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 58,
+          "query_id": "<dbpedia:AA-1-class_submarine>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 59,
+          "query_id": "<dbpedia:Brian_Head,_Utah>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 60,
+          "query_id": "<dbpedia:John_Ritblat>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 61,
+          "query_id": "<dbpedia:Walter_Braunfels>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 62,
+          "query_id": "<dbpedia:Robert_Bonner_(politician)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 63,
+          "query_id": "<dbpedia:List_of_continent_name_etymologies>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 64,
+          "query_id": "<dbpedia:Commutation_test>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 65,
+          "query_id": "<dbpedia:Shushtar>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 66,
+          "query_id": "<dbpedia:Big_Bend_Water_District>",
+          "recall_at_k": 0.9
+        },
+        {
+          "query_i": 67,
+          "query_id": "<dbpedia:Creation_Research_Society>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 68,
+          "query_id": "<dbpedia:Heckmondwike>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 69,
+          "query_id": "<dbpedia:Ralph_Beard_(baseball)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 70,
+          "query_id": "<dbpedia:Plantin-Moretus_Museum>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 71,
+          "query_id": "<dbpedia:Bovara>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 72,
+          "query_id": "<dbpedia:The_Legendary_Starfy_(series)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 73,
+          "query_id": "<dbpedia:Ferris_wheel>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 74,
+          "query_id": "<dbpedia:Shortest_path_problem>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 75,
+          "query_id": "<dbpedia:Illinois_Route_93>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 76,
+          "query_id": "<dbpedia:Compass_(drawing_tool)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 77,
+          "query_id": "<dbpedia:Gopal_Godse>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 78,
+          "query_id": "<dbpedia:Queen_of_Italy>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 79,
+          "query_id": "<dbpedia:Reiki_Kushida>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 80,
+          "query_id": "<dbpedia:Swiss_National_Science_Foundation>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 81,
+          "query_id": "<dbpedia:A_Requiem_for_Homo_Sapiens>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 82,
+          "query_id": "<dbpedia:CJLL-FM>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 83,
+          "query_id": "<dbpedia:Longwood,_Shimla>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 84,
+          "query_id": "<dbpedia:Ernie_Chambers>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 85,
+          "query_id": "<dbpedia:Brooklyn_Heights,_Ohio>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 86,
+          "query_id": "<dbpedia:Nikki_Tilroe>",
+          "recall_at_k": 0.9
+        },
+        {
+          "query_i": 87,
+          "query_id": "<dbpedia:Teruo_Yajima>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 88,
+          "query_id": "<dbpedia:Al_Bennett>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 89,
+          "query_id": "<dbpedia:Emil_Fuchs_(theologian)>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 90,
+          "query_id": "<dbpedia:The_Cherry-Tree_Carol>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 91,
+          "query_id": "<dbpedia:Murehwa_North>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 92,
+          "query_id": "<dbpedia:Cryptococcosis>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 93,
+          "query_id": "<dbpedia:Marco_Antonio_Rodr\u00edguez>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 94,
+          "query_id": "<dbpedia:Egyptian_Feminist_Union>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 95,
+          "query_id": "<dbpedia:Parks_and_open_spaces_in_Greenwich>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 96,
+          "query_id": "<dbpedia:Latchford>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 97,
+          "query_id": "<dbpedia:Muckle_Skerry>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 98,
+          "query_id": "<dbpedia:Hellenization>",
+          "recall_at_k": 1.0
+        },
+        {
+          "query_i": 99,
+          "query_id": "<dbpedia:Mike_Bannister>",
+          "recall_at_k": 1.0
+        }
+      ]
+    }
+  }
+}

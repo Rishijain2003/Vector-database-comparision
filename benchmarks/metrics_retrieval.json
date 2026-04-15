@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "k": 10,
+  "note": "Per query: top-k approximate neighbors. k matches ground_truth_top10.json when present.",
+  "completed_at": "2026-04-15T05:17:35.542862+00:00",
+  "qdrant": {
+    "collection": "dbpedia_10k_benchmark_native",
+    "qdrant_url": "http://192.168.108.123:6333",
+    "k": 10,
+    "num_queries": 100,
+    "warmup_queries": 20,
+    "hnsw_ef": 128,
+    "total_wall_seconds": 0.5501,
+    "qps": 181.789,
+    "mean_latency_ms": 5.4794,
+    "latency_ms": {
+      "p50_ms": 4.6832,
+      "p95_ms": 5.1315,
+      "p99_ms": 44.8517
+    }
+  },
+  "endee": {
+    "index_name": "dbpedia_10k_benchmark",
+    "endee_api_base": "http://192.168.108.123:18080/api/v1",
+    "endee_auth_mode": "local_no_auth",
+    "k": 10,
+    "num_queries": 100,
+    "warmup_queries": 20,
+    "ef": 128,
+    "total_wall_seconds": 0.5903,
+    "qps": 169.391,
+    "mean_latency_ms": 5.8831,
+    "latency_ms": {
+      "p50_ms": 5.809,
+      "p95_ms": 7.1495,
+      "p99_ms": 7.3322
+    }
+  }
+}

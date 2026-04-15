@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "dataset_id": "Qdrant/dbpedia-entities-openai3-text-embedding-3-large-1536-1M",
+  "embedding_column": "text-embedding-3-large-1536-embedding",
+  "text_column": "text",
+  "query_stream_skip": 10000,
+  "num_queries": 100,
+  "output_npz": "benchmarks/query_slice.npz",
+  "output_manifest": "benchmarks/query_slice_manifest.json",
+  "generated_at": "2026-04-15T04:19:14.165346+00:00"
+}
