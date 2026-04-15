@@ -1,31 +1,3 @@
-#!/usr/bin/env python3
-"""
-Phase 3 — For each query vector, retrieve top-k neighbors from Endee and/or Qdrant.
-
-Reads: benchmarks/query_slice.npz
-
-Writes:
-  benchmarks/endee_similarity.json
-  benchmarks/qdrant_similarity.json
-  benchmarks/metrics_retrieval.json  — QPS + latency (mean + p50/p95/p99)
-
-If benchmarks/ground_truth_top10.json exists, k is read from it (e.g. top-10).
-
-Env: QDRANT_URL, QDRANT_COLLECTION, QDRANT_API_KEY, ENDEE_INDEX_NAME, ENDEE_BASE_URL,
-     ENDEE_API_KEY / NDD_AUTH_TOKEN / ENDEE_LOCAL_NO_AUTH, BENCHMARK_WARMUP,
-     QDRANT_HNSW_EF, ENDEE_EF
-
-This script loads the repo root ``.env`` (if present) without overwriting existing env vars.
-For local Endee with only ``ENDEE_BASE_URL`` set (no token), it defaults ``ENDEE_LOCAL_NO_AUTH=1``
-unless you already set ``ENDEE_LOCAL_NO_AUTH`` or an API token.
-
-Next: scripts/compute_recall.py
-
-Qdrant client 2.x uses ``query_points`` for dense vector search (``search`` was removed); see
-https://qdrant.tech/documentation/ — Search / API & SDKs.
-
-Endee search uses the official Python SDK ``index.query``; see https://docs.endee.io/overview
-"""
 
 from __future__ import annotations
 
@@ -66,23 +38,6 @@ def _load_repo_dotenv() -> None:
         if (val.startswith('"') and val.endswith('"')) or (val.startswith("'") and val.endswith("'")):
             val = val[1:-1]
         os.environ[key] = val
-
-
-def _apply_endee_local_defaults() -> None:
-    """
-    Self-hosted Endee (e.g. http://192.168.108.123:18080) often uses no API token.
-
-    If ENDEE_BASE_URL is set, no token env vars are set, and ENDEE_LOCAL_NO_AUTH was not
-    provided, default ENDEE_LOCAL_NO_AUTH=1 for this process so ``endee_client`` matches
-    typical LAN installs. Shell or .env may still set ENDEE_LOCAL_NO_AUTH explicitly.
-    """
-    if not (os.environ.get("ENDEE_BASE_URL") or "").strip():
-        return
-    if (os.environ.get("ENDEE_API_KEY") or os.environ.get("NDD_AUTH_TOKEN") or "").strip():
-        return
-    if "ENDEE_LOCAL_NO_AUTH" in os.environ:
-        return
-    os.environ["ENDEE_LOCAL_NO_AUTH"] = "1"
 
 
 def _rel_to_repo(p: Path) -> str:
@@ -308,7 +263,6 @@ def _write_metrics_retrieval(path: Path, k: int, qdrant: dict | None, endee: dic
 
 def main() -> None:
     _load_repo_dotenv()
-    _apply_endee_local_defaults()
 
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--queries-npz", type=Path, default=BENCHMARKS_DIR / "query_slice.npz")

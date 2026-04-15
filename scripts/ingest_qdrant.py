@@ -1,22 +1,3 @@
-#!/usr/bin/env python3
-"""
-Ingest a Parquet corpus into Qdrant using only `qdrant-client` (no LangChain).
-
-Payload: `_id`, `title`, `text` (full body). Point IDs are UUID5(_id) for stable keys.
-
-Env:
-  QDRANT_URL          default http://192.168.108.123:6333
-  QDRANT_API_KEY      optional
-  QDRANT_COLLECTION   default dbpedia_10k_benchmark_native
-  PARQUET_PATH        default data/dbpedia_openai3_large_10k.parquet
-  INGEST_BATCH_SIZE   default 1000
-  QDRANT_TITLE_INDEX  set to "0" to skip keyword payload index on `title`
-  QDRANT_STRICT_VERSION_CHECK set to "1" to enforce client/server version check
-
-Writes metrics under key `qdrant_native` in metrics_indexing.json (merged).
-
-Docs: https://qdrant.tech/documentation/ (collections, points, search / Python client).
-"""
 
 from __future__ import annotations
 
@@ -45,7 +26,7 @@ def main() -> None:
     parser.add_argument("--parquet", type=Path, default=Path(os.environ.get("PARQUET_PATH", DEFAULT_PARQUET)))
     parser.add_argument(
         "--collection",
-        default=os.environ.get("QDRANT_COLLECTION", "dbpedia_10k_benchmark_native"),
+        default=os.environ.get("QDRANT_COLLECTION", "dbpedia_10k_benchmark_native_qdrant"),
     )
     parser.add_argument("--batch-size", type=int, default=int(os.environ.get("INGEST_BATCH_SIZE", "1000")))
     parser.add_argument(

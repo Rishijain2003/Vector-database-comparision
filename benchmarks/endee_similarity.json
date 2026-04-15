@@ -8,15 +8,15 @@
     "ef": 128,
     "index_name": "dbpedia_10k_benchmark",
     "endee_api_base": "http://192.168.108.123:18080/api/v1",
-    "endee_auth_mode": "local_no_auth",
+    "endee_auth_mode": "none",
     "query_vectors_npz": "benchmarks/query_slice.npz",
-    "completed_at": "2026-04-15T05:17:35.534524+00:00"
+    "completed_at": "2026-04-15T06:43:58.404541+00:00"
   },
   "results": [
     {
       "query_i": 0,
       "query_id": "<dbpedia:40th_Flight_Test_Squadron>",
-      "latency_ms": 5.8259,
+      "latency_ms": 5.6515,
       "hits": [
         {
           "rank": 1,
@@ -83,7 +83,7 @@
     {
       "query_i": 1,
       "query_id": "<dbpedia:AllianceBernstein>",
-      "latency_ms": 6.0121,
+      "latency_ms": 5.8131,
       "hits": [
         {
           "rank": 1,
@@ -150,7 +150,7 @@
     {
       "query_i": 2,
       "query_id": "<dbpedia:Jonas_Valley>",
-      "latency_ms": 6.2108,
+      "latency_ms": 6.0596,
       "hits": [
         {
           "rank": 1,
@@ -217,7 +217,7 @@
     {
       "query_i": 3,
       "query_id": "<dbpedia:Wilson_(film)>",
-      "latency_ms": 5.6923,
+      "latency_ms": 5.4937,
       "hits": [
         {
           "rank": 1,
@@ -284,7 +284,7 @@
     {
       "query_i": 4,
       "query_id": "<dbpedia:Central_Bank_of_Kuwait>",
-      "latency_ms": 5.9522,
+      "latency_ms": 5.8699,
       "hits": [
         {
           "rank": 1,
@@ -351,7 +351,7 @@
     {
       "query_i": 5,
       "query_id": "<dbpedia:Baize>",
-      "latency_ms": 6.533,
+      "latency_ms": 6.5442,
       "hits": [
         {
           "rank": 1,
@@ -418,7 +418,7 @@
     {
       "query_i": 6,
       "query_id": "<dbpedia:Zwierzyn,_Lubusz_Voivodeship>",
-      "latency_ms": 5.4671,
+      "latency_ms": 5.4095,
       "hits": [
         {
           "rank": 1,
@@ -485,7 +485,7 @@
     {
       "query_i": 7,
       "query_id": "<dbpedia:A._M._Azahari>",
-      "latency_ms": 5.5657,
+      "latency_ms": 5.5602,
       "hits": [
         {
           "rank": 1,
@@ -552,7 +552,7 @@
     {
       "query_i": 8,
       "query_id": "<dbpedia:Dad_Loves_His_Work>",
-      "latency_ms": 5.267,
+      "latency_ms": 5.0658,
       "hits": [
         {
           "rank": 1,
@@ -619,7 +619,7 @@
     {
       "query_i": 9,
       "query_id": "<dbpedia:Ferry_Hall_School>",
-      "latency_ms": 6.8007,
+      "latency_ms": 5.8279,
       "hits": [
         {
           "rank": 1,
@@ -686,7 +686,7 @@
     {
       "query_i": 10,
       "query_id": "<dbpedia:Bus_mouse>",
-      "latency_ms": 6.0434,
+      "latency_ms": 5.7237,
       "hits": [
         {
           "rank": 1,
@@ -753,7 +753,7 @@
     {
       "query_i": 11,
       "query_id": "<dbpedia:United_Mine_Workers_of_America_v._Bagwell>",
-      "latency_ms": 5.9846,
+      "latency_ms": 6.1333,
       "hits": [
         {
           "rank": 1,
@@ -820,7 +820,7 @@
     {
       "query_i": 12,
       "query_id": "<dbpedia:Tintin_\u2013_Le_Temple_du_Soleil_\u2013_Le_Spectacle_Musical>",
-      "latency_ms": 5.8222,
+      "latency_ms": 5.9074,
       "hits": [
         {
           "rank": 1,
@@ -887,7 +887,7 @@
     {
       "query_i": 13,
       "query_id": "<dbpedia:MacRobertson's>",
-      "latency_ms": 6.0821,
+      "latency_ms": 5.8624,
       "hits": [
         {
           "rank": 1,
@@ -954,7 +954,7 @@
     {
       "query_i": 14,
       "query_id": "<dbpedia:William_de_la_Barre>",
-      "latency_ms": 5.6154,
+      "latency_ms": 5.5184,
       "hits": [
         {
           "rank": 1,
@@ -1021,7 +1021,7 @@
     {
       "query_i": 15,
       "query_id": "<dbpedia:SAPS_II>",
-      "latency_ms": 6.0571,
+      "latency_ms": 6.0006,
       "hits": [
         {
           "rank": 1,
@@ -1088,7 +1088,7 @@
     {
       "query_i": 16,
       "query_id": "<dbpedia:The_Power_of_One_(novel)>",
-      "latency_ms": 5.6796,
+      "latency_ms": 5.5059,
       "hits": [
         {
           "rank": 1,
@@ -1155,7 +1155,7 @@
     {
       "query_i": 17,
       "query_id": "<dbpedia:Religion_in_Nazi_Germany>",
-      "latency_ms": 5.9899,
+      "latency_ms": 5.7551,
       "hits": [
         {
           "rank": 1,
@@ -1222,7 +1222,7 @@
     {
       "query_i": 18,
       "query_id": "<dbpedia:Aluminium_arsenide>",
-      "latency_ms": 5.9021,
+      "latency_ms": 5.7168,
       "hits": [
         {
           "rank": 1,
@@ -1289,7 +1289,7 @@
     {
       "query_i": 19,
       "query_id": "<dbpedia:Kongnamul>",
-      "latency_ms": 6.0571,
+      "latency_ms": 5.9252,
       "hits": [
         {
           "rank": 1,
@@ -1356,7 +1356,7 @@
     {
       "query_i": 20,
       "query_id": "<dbpedia:B_symptoms>",
-      "latency_ms": 5.7947,
+      "latency_ms": 5.6831,
       "hits": [
         {
           "rank": 1,
@@ -1423,7 +1423,7 @@
     {
       "query_i": 21,
       "query_id": "<dbpedia:Jeju_World_Cup_Stadium>",
-      "latency_ms": 5.9789,
+      "latency_ms": 5.6719,
       "hits": [
         {
           "rank": 1,
@@ -1490,7 +1490,7 @@
     {
       "query_i": 22,
       "query_id": "<dbpedia:Ashburton_Collegiate>",
-      "latency_ms": 5.6373,
+      "latency_ms": 5.5204,
       "hits": [
         {
           "rank": 1,
@@ -1557,7 +1557,7 @@
     {
       "query_i": 23,
       "query_id": "<dbpedia:Imre_Nagy>",
-      "latency_ms": 5.6017,
+      "latency_ms": 5.6525,
       "hits": [
         {
           "rank": 1,
@@ -1624,7 +1624,7 @@
     {
       "query_i": 24,
       "query_id": "<dbpedia:Everything_Will_Flow>",
-      "latency_ms": 4.7086,
+      "latency_ms": 4.6418,
       "hits": [
         {
           "rank": 1,
@@ -1691,7 +1691,7 @@
     {
       "query_i": 25,
       "query_id": "<dbpedia:Arabized_Berber>",
-      "latency_ms": 6.5761,
+      "latency_ms": 5.9117,
       "hits": [
         {
           "rank": 1,
@@ -1758,7 +1758,7 @@
     {
       "query_i": 26,
       "query_id": "<dbpedia:Julia_Pastrana>",
-      "latency_ms": 7.2104,
+      "latency_ms": 5.6858,
       "hits": [
         {
           "rank": 1,
@@ -1825,7 +1825,7 @@
     {
       "query_i": 27,
       "query_id": "<dbpedia:Oleg_Firsov>",
-      "latency_ms": 5.7442,
+      "latency_ms": 6.1709,
       "hits": [
         {
           "rank": 1,
@@ -1892,7 +1892,7 @@
     {
       "query_i": 28,
       "query_id": "<dbpedia:Dickeya_dadantii>",
-      "latency_ms": 6.2842,
+      "latency_ms": 5.7774,
       "hits": [
         {
           "rank": 1,
@@ -1959,7 +1959,7 @@
     {
       "query_i": 29,
       "query_id": "<dbpedia:Loot_(play)>",
-      "latency_ms": 6.2017,
+      "latency_ms": 5.8246,
       "hits": [
         {
           "rank": 1,
@@ -2026,7 +2026,7 @@
     {
       "query_i": 30,
       "query_id": "<dbpedia:West_Lafayette,_Indiana>",
-      "latency_ms": 5.983,
+      "latency_ms": 5.3901,
       "hits": [
         {
           "rank": 1,
@@ -2093,7 +2093,7 @@
     {
       "query_i": 31,
       "query_id": "<dbpedia:Forced_suicide>",
-      "latency_ms": 6.2346,
+      "latency_ms": 5.6418,
       "hits": [
         {
           "rank": 1,
@@ -2160,7 +2160,7 @@
     {
       "query_i": 32,
       "query_id": "<dbpedia:Pulaski,_Wisconsin>",
-      "latency_ms": 5.6847,
+      "latency_ms": 5.1206,
       "hits": [
         {
           "rank": 1,
@@ -2227,7 +2227,7 @@
     {
       "query_i": 33,
       "query_id": "<dbpedia:M0>",
-      "latency_ms": 6.3936,
+      "latency_ms": 5.7666,
       "hits": [
         {
           "rank": 1,
@@ -2294,7 +2294,7 @@
     {
       "query_i": 34,
       "query_id": "<dbpedia:Lentil>",
-      "latency_ms": 7.4816,
+      "latency_ms": 5.8379,
       "hits": [
         {
           "rank": 1,
@@ -2361,7 +2361,7 @@
     {
       "query_i": 35,
       "query_id": "<dbpedia:Pointe_La_Rue>",
-      "latency_ms": 7.1463,
+      "latency_ms": 5.3979,
       "hits": [
         {
           "rank": 1,
@@ -2428,7 +2428,7 @@
     {
       "query_i": 36,
       "query_id": "<dbpedia:Richard_Chee_Quee>",
-      "latency_ms": 6.7308,
+      "latency_ms": 5.4941,
       "hits": [
         {
           "rank": 1,
@@ -2495,7 +2495,7 @@
     {
       "query_i": 37,
       "query_id": "<dbpedia:Eldar_R\u00f8nning>",
-      "latency_ms": 7.3307,
+      "latency_ms": 5.5814,
       "hits": [
         {
           "rank": 1,
@@ -2562,7 +2562,7 @@
     {
       "query_i": 38,
       "query_id": "<dbpedia:Megaton_Man>",
-      "latency_ms": 7.2127,
+      "latency_ms": 5.5711,
       "hits": [
         {
           "rank": 1,
@@ -2629,7 +2629,7 @@
     {
       "query_i": 39,
       "query_id": "<dbpedia:Model_1816_Musket>",
-      "latency_ms": 7.2215,
+      "latency_ms": 5.725,
       "hits": [
         {
           "rank": 1,
@@ -2696,7 +2696,7 @@
     {
       "query_i": 40,
       "query_id": "<dbpedia:Montgomery_County,_Alabama>",
-      "latency_ms": 5.3604,
+      "latency_ms": 5.0606,
       "hits": [
         {
           "rank": 1,
@@ -2763,7 +2763,7 @@
     {
       "query_i": 41,
       "query_id": "<dbpedia:Ames_Lake,_Washington>",
-      "latency_ms": 5.4533,
+      "latency_ms": 5.111,
       "hits": [
         {
           "rank": 1,
@@ -2830,7 +2830,7 @@
     {
       "query_i": 42,
       "query_id": "<dbpedia:Clinical_Global_Impression>",
-      "latency_ms": 5.9871,
+      "latency_ms": 5.5183,
       "hits": [
         {
           "rank": 1,
@@ -2897,7 +2897,7 @@
     {
       "query_i": 43,
       "query_id": "<dbpedia:Department_of_Militia_and_Defence>",
-      "latency_ms": 6.1883,
+      "latency_ms": 5.5546,
       "hits": [
         {
           "rank": 1,
@@ -2964,7 +2964,7 @@
     {
       "query_i": 44,
       "query_id": "<dbpedia:Podluhy>",
-      "latency_ms": 5.662,
+      "latency_ms": 5.2193,
       "hits": [
         {
           "rank": 1,
@@ -3031,7 +3031,7 @@
     {
       "query_i": 45,
       "query_id": "<dbpedia:Highland_Railway_Clan_Class>",
-      "latency_ms": 5.9403,
+      "latency_ms": 5.5413,
       "hits": [
         {
           "rank": 1,
@@ -3098,7 +3098,7 @@
     {
       "query_i": 46,
       "query_id": "<dbpedia:James_McClatchy>",
-      "latency_ms": 5.8856,
+      "latency_ms": 5.4217,
       "hits": [
         {
           "rank": 1,
@@ -3165,7 +3165,7 @@
     {
       "query_i": 47,
       "query_id": "<dbpedia:Tenugui>",
-      "latency_ms": 5.8589,
+      "latency_ms": 5.669,
       "hits": [
         {
           "rank": 1,
@@ -3232,7 +3232,7 @@
     {
       "query_i": 48,
       "query_id": "<dbpedia:Remedy_Corporation>",
-      "latency_ms": 5.7315,
+      "latency_ms": 5.7832,
       "hits": [
         {
           "rank": 1,
@@ -3299,7 +3299,7 @@
     {
       "query_i": 49,
       "query_id": "<dbpedia:Morfa_Nefyn>",
-      "latency_ms": 5.4403,
+      "latency_ms": 5.3841,
       "hits": [
         {
           "rank": 1,
@@ -3366,7 +3366,7 @@
     {
       "query_i": 50,
       "query_id": "<dbpedia:B\u00e9doin>",
-      "latency_ms": 5.4555,
+      "latency_ms": 5.2767,
       "hits": [
         {
           "rank": 1,
@@ -3433,7 +3433,7 @@
     {
       "query_i": 51,
       "query_id": "<dbpedia:The_Collection_(Alanis_Morissette_album)>",
-      "latency_ms": 4.7411,
+      "latency_ms": 4.8247,
       "hits": [
         {
           "rank": 1,
@@ -3500,7 +3500,7 @@
     {
       "query_i": 52,
       "query_id": "<dbpedia:Ojibway_Club>",
-      "latency_ms": 5.9338,
+      "latency_ms": 5.9149,
       "hits": [
         {
           "rank": 1,
@@ -3567,7 +3567,7 @@
     {
       "query_i": 53,
       "query_id": "<dbpedia:Busia_District>",
-      "latency_ms": 5.6779,
+      "latency_ms": 5.6885,
       "hits": [
         {
           "rank": 1,
@@ -3634,7 +3634,7 @@
     {
       "query_i": 54,
       "query_id": "<dbpedia:Hashlife>",
-      "latency_ms": 5.9128,
+      "latency_ms": 5.8266,
       "hits": [
         {
           "rank": 1,
@@ -3701,7 +3701,7 @@
     {
       "query_i": 55,
       "query_id": "<dbpedia:Nikon_FE2>",
-      "latency_ms": 5.916,
+      "latency_ms": 5.9711,
       "hits": [
         {
           "rank": 1,
@@ -3768,7 +3768,7 @@
     {
       "query_i": 56,
       "query_id": "<dbpedia:Raise_Your_Voice>",
-      "latency_ms": 5.0851,
+      "latency_ms": 5.1055,
       "hits": [
         {
           "rank": 1,
@@ -3835,7 +3835,7 @@
     {
       "query_i": 57,
       "query_id": "<dbpedia:Audibert_&_Lavirotte>",
-      "latency_ms": 5.7789,
+      "latency_ms": 5.6827,
       "hits": [
         {
           "rank": 1,
@@ -3902,7 +3902,7 @@
     {
       "query_i": 58,
       "query_id": "<dbpedia:AA-1-class_submarine>",
-      "latency_ms": 5.3097,
+      "latency_ms": 5.2824,
       "hits": [
         {
           "rank": 1,
@@ -3969,7 +3969,7 @@
     {
       "query_i": 59,
       "query_id": "<dbpedia:Brian_Head,_Utah>",
-      "latency_ms": 5.4067,
+      "latency_ms": 5.2926,
       "hits": [
         {
           "rank": 1,
@@ -4036,7 +4036,7 @@
     {
       "query_i": 60,
       "query_id": "<dbpedia:John_Ritblat>",
-      "latency_ms": 5.4474,
+      "latency_ms": 5.3512,
       "hits": [
         {
           "rank": 1,
@@ -4103,7 +4103,7 @@
     {
       "query_i": 61,
       "query_id": "<dbpedia:Walter_Braunfels>",
-      "latency_ms": 5.5293,
+      "latency_ms": 5.3783,
       "hits": [
         {
           "rank": 1,
@@ -4170,7 +4170,7 @@
     {
       "query_i": 62,
       "query_id": "<dbpedia:Robert_Bonner_(politician)>",
-      "latency_ms": 5.2252,
+      "latency_ms": 5.1018,
       "hits": [
         {
           "rank": 1,
@@ -4237,7 +4237,7 @@
     {
       "query_i": 63,
       "query_id": "<dbpedia:List_of_continent_name_etymologies>",
-      "latency_ms": 5.5499,
+      "latency_ms": 5.3658,
       "hits": [
         {
           "rank": 1,
@@ -4304,7 +4304,7 @@
     {
       "query_i": 64,
       "query_id": "<dbpedia:Commutation_test>",
-      "latency_ms": 5.4005,
+      "latency_ms": 5.786,
       "hits": [
         {
           "rank": 1,
@@ -4371,7 +4371,7 @@
     {
       "query_i": 65,
       "query_id": "<dbpedia:Shushtar>",
-      "latency_ms": 6.0268,
+      "latency_ms": 6.3527,
       "hits": [
         {
           "rank": 1,
@@ -4438,7 +4438,7 @@
     {
       "query_i": 66,
       "query_id": "<dbpedia:Big_Bend_Water_District>",
-      "latency_ms": 5.9368,
+      "latency_ms": 5.731,
       "hits": [
         {
           "rank": 1,
@@ -4505,7 +4505,7 @@
     {
       "query_i": 67,
       "query_id": "<dbpedia:Creation_Research_Society>",
-      "latency_ms": 5.9629,
+      "latency_ms": 5.8112,
       "hits": [
         {
           "rank": 1,
@@ -4572,7 +4572,7 @@
     {
       "query_i": 68,
       "query_id": "<dbpedia:Heckmondwike>",
-      "latency_ms": 5.2226,
+      "latency_ms": 5.0491,
       "hits": [
         {
           "rank": 1,
@@ -4639,7 +4639,7 @@
     {
       "query_i": 69,
       "query_id": "<dbpedia:Ralph_Beard_(baseball)>",
-      "latency_ms": 5.3842,
+      "latency_ms": 5.3481,
       "hits": [
         {
           "rank": 1,
@@ -4706,7 +4706,7 @@
     {
       "query_i": 70,
       "query_id": "<dbpedia:Plantin-Moretus_Museum>",
-      "latency_ms": 6.0455,
+      "latency_ms": 6.0362,
       "hits": [
         {
           "rank": 1,
@@ -4773,7 +4773,7 @@
     {
       "query_i": 71,
       "query_id": "<dbpedia:Bovara>",
-      "latency_ms": 5.4674,
+      "latency_ms": 5.469,
       "hits": [
         {
           "rank": 1,
@@ -4840,7 +4840,7 @@
     {
       "query_i": 72,
       "query_id": "<dbpedia:The_Legendary_Starfy_(series)>",
-      "latency_ms": 5.5578,
+      "latency_ms": 5.5155,
       "hits": [
         {
           "rank": 1,
@@ -4907,7 +4907,7 @@
     {
       "query_i": 73,
       "query_id": "<dbpedia:Ferris_wheel>",
-      "latency_ms": 7.021,
+      "latency_ms": 6.8867,
       "hits": [
         {
           "rank": 1,
@@ -4974,7 +4974,7 @@
     {
       "query_i": 74,
       "query_id": "<dbpedia:Shortest_path_problem>",
-      "latency_ms": 5.5261,
+      "latency_ms": 5.595,
       "hits": [
         {
           "rank": 1,
@@ -5041,7 +5041,7 @@
     {
       "query_i": 75,
       "query_id": "<dbpedia:Illinois_Route_93>",
-      "latency_ms": 5.5072,
+      "latency_ms": 5.2954,
       "hits": [
         {
           "rank": 1,
@@ -5108,7 +5108,7 @@
     {
       "query_i": 76,
       "query_id": "<dbpedia:Compass_(drawing_tool)>",
-      "latency_ms": 5.4027,
+      "latency_ms": 5.2519,
       "hits": [
         {
           "rank": 1,
@@ -5175,7 +5175,7 @@
     {
       "query_i": 77,
       "query_id": "<dbpedia:Gopal_Godse>",
-      "latency_ms": 6.0524,
+      "latency_ms": 5.7449,
       "hits": [
         {
           "rank": 1,
@@ -5242,7 +5242,7 @@
     {
       "query_i": 78,
       "query_id": "<dbpedia:Queen_of_Italy>",
-      "latency_ms": 6.0148,
+      "latency_ms": 5.7303,
       "hits": [
         {
           "rank": 1,
@@ -5309,7 +5309,7 @@
     {
       "query_i": 79,
       "query_id": "<dbpedia:Reiki_Kushida>",
-      "latency_ms": 5.949,
+      "latency_ms": 5.7532,
       "hits": [
         {
           "rank": 1,
@@ -5376,7 +5376,7 @@
     {
       "query_i": 80,
       "query_id": "<dbpedia:Swiss_National_Science_Foundation>",
-      "latency_ms": 6.0723,
+      "latency_ms": 5.7134,
       "hits": [
         {
           "rank": 1,
@@ -5443,7 +5443,7 @@
     {
       "query_i": 81,
       "query_id": "<dbpedia:A_Requiem_for_Homo_Sapiens>",
-      "latency_ms": 5.6706,
+      "latency_ms": 5.3347,
       "hits": [
         {
           "rank": 1,
@@ -5510,7 +5510,7 @@
     {
       "query_i": 82,
       "query_id": "<dbpedia:CJLL-FM>",
-      "latency_ms": 5.865,
+      "latency_ms": 5.4307,
       "hits": [
         {
           "rank": 1,
@@ -5577,7 +5577,7 @@
     {
       "query_i": 83,
       "query_id": "<dbpedia:Longwood,_Shimla>",
-      "latency_ms": 5.7754,
+      "latency_ms": 5.3285,
       "hits": [
         {
           "rank": 1,
@@ -5644,7 +5644,7 @@
     {
       "query_i": 84,
       "query_id": "<dbpedia:Ernie_Chambers>",
-      "latency_ms": 5.7081,
+      "latency_ms": 5.3359,
       "hits": [
         {
           "rank": 1,
@@ -5711,7 +5711,7 @@
     {
       "query_i": 85,
       "query_id": "<dbpedia:Brooklyn_Heights,_Ohio>",
-      "latency_ms": 5.4593,
+      "latency_ms": 5.1142,
       "hits": [
         {
           "rank": 1,
@@ -5778,7 +5778,7 @@
     {
       "query_i": 86,
       "query_id": "<dbpedia:Nikki_Tilroe>",
-      "latency_ms": 5.5592,
+      "latency_ms": 5.2793,
       "hits": [
         {
           "rank": 1,
@@ -5845,7 +5845,7 @@
     {
       "query_i": 87,
       "query_id": "<dbpedia:Teruo_Yajima>",
-      "latency_ms": 5.7107,
+      "latency_ms": 5.3461,
       "hits": [
         {
           "rank": 1,
@@ -5912,7 +5912,7 @@
     {
       "query_i": 88,
       "query_id": "<dbpedia:Al_Bennett>",
-      "latency_ms": 5.7847,
+      "latency_ms": 5.3289,
       "hits": [
         {
           "rank": 1,
@@ -5979,7 +5979,7 @@
     {
       "query_i": 89,
       "query_id": "<dbpedia:Emil_Fuchs_(theologian)>",
-      "latency_ms": 5.7777,
+      "latency_ms": 5.3302,
       "hits": [
         {
           "rank": 1,
@@ -6046,7 +6046,7 @@
     {
       "query_i": 90,
       "query_id": "<dbpedia:The_Cherry-Tree_Carol>",
-      "latency_ms": 6.1216,
+      "latency_ms": 5.6654,
       "hits": [
         {
           "rank": 1,
@@ -6113,7 +6113,7 @@
     {
       "query_i": 91,
       "query_id": "<dbpedia:Murehwa_North>",
-      "latency_ms": 5.7957,
+      "latency_ms": 5.4196,
       "hits": [
         {
           "rank": 1,
@@ -6180,7 +6180,7 @@
     {
       "query_i": 92,
       "query_id": "<dbpedia:Cryptococcosis>",
-      "latency_ms": 5.7082,
+      "latency_ms": 5.3814,
       "hits": [
         {
           "rank": 1,
@@ -6247,7 +6247,7 @@
     {
       "query_i": 93,
       "query_id": "<dbpedia:Marco_Antonio_Rodr\u00edguez>",
-      "latency_ms": 5.8555,
+      "latency_ms": 5.1653,
       "hits": [
         {
           "rank": 1,
@@ -6314,7 +6314,7 @@
     {
       "query_i": 94,
       "query_id": "<dbpedia:Egyptian_Feminist_Union>",
-      "latency_ms": 6.0474,
+      "latency_ms": 5.7244,
       "hits": [
         {
           "rank": 1,
@@ -6381,7 +6381,7 @@
     {
       "query_i": 95,
       "query_id": "<dbpedia:Parks_and_open_spaces_in_Greenwich>",
-      "latency_ms": 5.6944,
+      "latency_ms": 5.4175,
       "hits": [
         {
           "rank": 1,
@@ -6448,7 +6448,7 @@
     {
       "query_i": 96,
       "query_id": "<dbpedia:Latchford>",
-      "latency_ms": 5.5931,
+      "latency_ms": 5.2129,
       "hits": [
         {
           "rank": 1,
@@ -6515,7 +6515,7 @@
     {
       "query_i": 97,
       "query_id": "<dbpedia:Muckle_Skerry>",
-      "latency_ms": 5.7368,
+      "latency_ms": 5.3785,
       "hits": [
         {
           "rank": 1,
@@ -6582,7 +6582,7 @@
     {
       "query_i": 98,
       "query_id": "<dbpedia:Hellenization>",
-      "latency_ms": 5.9645,
+      "latency_ms": 5.7137,
       "hits": [
         {
           "rank": 1,
@@ -6649,7 +6649,7 @@
     {
       "query_i": 99,
       "query_id": "<dbpedia:Mike_Bannister>",
-      "latency_ms": 5.7381,
+      "latency_ms": 5.4943,
       "hits": [
         {
           "rank": 1,

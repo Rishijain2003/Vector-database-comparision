@@ -1,0 +1,19 @@
+{
+  "ef_con_trial": {
+    "backend": "endee_native_ef_con_trial",
+    "script": "ingest_endee_ef_con_trial.py",
+    "index_name": "ef_con_trial",
+    "ef_con": 100,
+    "M": 16,
+    "ef_con_server": 100,
+    "precision": "float32",
+    "indexing_seconds": 64.6912,
+    "num_rows": 10000,
+    "parquet": "/home/rishi/Endee/data/dbpedia_openai3_large_10k.parquet",
+    "endee_api_base": "http://127.0.0.1:18080/api/v1",
+    "endee_auth_mode": "none",
+    "batch_size": 1000,
+    "vector_dimension": 1536,
+    "completed_at": "2026-04-15T07:18:45.302300+00:00"
+  }
+}
