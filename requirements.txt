@@ -6,3 +6,6 @@ numpy>=1.24.0
 # 2.x: QdrantClient.search removed; use query_points (see scripts/run_ann_similarity.py)
 qdrant-client>=2.0.0
 endee>=0.1.22
+
+# RAG (rag/*.py): OpenAI embeddings + chat
+openai>=1.40.0
